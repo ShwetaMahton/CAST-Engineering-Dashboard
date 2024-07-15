@@ -1,0 +1,867 @@
+business_name,technical_name,rule_name,object_name,start_line,end_line,start_column,end_column,merged
+Efficiency,Efficiency - SQL and Data Handling Performance,Always cache the returned objects in variables to be reused,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js,383,383,5,22,383-383
+Efficiency,Efficiency - SQL and Data Handling Performance,Always cache the returned objects in variables to be reused,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\alertbox.js,75,75,23,34,75-75
+Efficiency,Efficiency - SQL and Data Handling Performance,Always cache the returned objects in variables to be reused,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\validator.js,137,137,20,27,137-137
+Efficiency,Efficiency - SQL and Data Handling Performance,Always cache the returned objects in variables to be reused,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\pmsend.aspx,61,61,4,16,61-61
+Security,Programming Practices - Unexpected Behavior,Always define column names when inserting values,XDPortal.dbo.fnConvertCSVToINT,36,37,3,34,36-37
+Security,Programming Practices - Error and Exception Handling,Always implement the success/error/complete or done/fail/always callbacks when using jQuery ajax call,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js,409,415,5,7,409-415
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.CategoryPage_Article,17,52,5,4,17-52
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetArticleDetails,27,52,2,8,27-52
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetArticleSearchResult,33,70,5,101,33-70
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetCategoryArticle,27,64,5,46,27-64
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetRecipeCategory,27,61,5,41,27-61
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetRecipeFirstAlphaLetterName,27,61,5,54,27-61
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetRecipeOfTheDay,25,53,1,4,25-53
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetRelatedRecipe,15,33,2,4,15-33
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetSearchResult,32,58,3,108,32-58
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetSortingRecipe,26,59,5,27,26-59
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spGetRecipeDetail,32,56,2,9,32-56
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectAllArticleByUser,30,70,3,35,30-70
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectAllPublicEvents,24,42,2,4,24-42
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectDisplayAllMembers,26,57,3,33,26-57
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectDisplayAllMembersAdmin,42,131,3,55,42-131
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectEventWeekView,23,41,2,4,23-41
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectFriendsList,15,36,2,4,15-36
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectFriendsListMainPage,18,39,2,4,18-39
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectGetAllRecipeByUser,29,55,4,43,29-55
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectGetAllRecipeCommentByUser,30,72,4,28,30-72
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectGetPublicEventDetails,11,31,2,4,11-31
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectGetUserArticleCommentByUser,30,89,3,23,30-89
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectLast5RecipeByUser,11,29,2,4,11-29
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectNewFriendsWaitingForApproval,11,33,2,4,11-33
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectPrivateMessages,141,151,2,4,141-151
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectUser,24,60,2,19,24-60
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectUserPrivateMessage,11,30,2,4,11-30
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectUsersCookBook,18,40,2,4,18-40
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectUsersCookBookMain,26,63,3,26,26-63
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectUsersrecipeInCookBook,15,37,2,4,15-37
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AddArticleRating,18,21,4,4,18-21
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AddComments,29,36,3,7,29-36
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AddRating,18,21,4,4,18-21
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AdminAddCookingArticle,27,43,2,18,27-43
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AdminAddNewArticleCategory,23,33,2,18,23-33
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AdminAddNewRecipeCategory,24,34,1,18,24-34
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AdminApproveRecipe,16,18,8,4,16-18
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AdminDeleteArticleCategory,18,20,5,4,18-20
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AdminDeleteArticleComments,15,17,5,4,15-17
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AdminDeleteRecipeCategory,16,16,5,49,16-16
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AdminDeleteRecipeComments,16,16,5,54,16-16
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AdminManagerDeleteRecipe,18,20,4,4,18-20
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AdminUpdateEmailAndSMTPAddress,16,20,1,4,16-20
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AdminUpdateLastViewedHours,15,17,5,4,15-17
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.AdminUpdateShowHideComment,15,17,5,4,15-17
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.ArticleDelete,13,15,1,4,13-15
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.FinalizeArticleSubmission,15,18,2,4,15-18
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.GetArticleDetails,54,57,6,4,54-57
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.UpdateArticleCategory,16,19,5,4,16-19
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.UpdateArticleComments,13,21,1,18,13-21
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.UpdateRecipeCategory,17,17,5,69,17-17
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.UpdateRecipeComments,17,25,1,18,17-25
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.fnConvertCSVToINT,36,37,3,34,36-37
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spActivateAccount,14,20,11,4,14-20
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spAddRecipe,43,62,2,18,43-62
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spDeleteAFriendInFriendsList,15,19,11,4,15-19
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spDeleteAllPMInTrash,11,13,2,4,11-13
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spDeleteExceptionLog,11,13,3,4,11-13
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spDeleteMultipleRecipeComment,15,17,5,4,15-17
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spDeletePrivateMessage,12,14,2,4,12-14
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spDeletePrivateMessageSent,11,13,2,4,11-13
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spDeleteUnApprovedFriends,12,14,2,4,12-14
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spDeleteUser,26,26,2,47,26-26
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spDeleteUserRecipeInCookBook,12,15,8,4,12-15
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spGetRecipeDetail,60,63,7,4,60-63
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spInsertAFriendToFriendsList,19,24,7,13,19-24
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spInsertArticle,27,46,3,18,27-46
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spInsertArticleComment,25,32,3,7,25-32
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spInsertDeletedUserLog,13,16,2,4,13-16
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spInsertExceptionError,11,14,1,9,11-14
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spInsertFavoriteRecipeToCookBook,33,40,6,4,33-40
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spInsertIsProfilePagePublicOrPrivate,11,13,2,4,11-13
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spInsertPMBlockedUser,19,23,4,4,19-23
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spInsertPrivateMessage,21,22,4,66,21-22
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spInsertUser,108,160,2,18,108-160
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spMovePMBackToInbox,12,14,5,4,12-14
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spMovePMToTrash,12,14,5,4,12-14
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spReinstateUserAccount,17,17,3,63,17-17
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spRemovedUserFromPMBlockedList,12,14,2,4,12-14
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spSelectEventWeekViewBeginAndEndDate,17,17,2,31,17-17
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spSelectReadPrivateMessage,28,30,2,4,28-30
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spSelectUser,63,65,5,9,63-65
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spSuspendUserWithNote,21,26,3,4,21-26
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUdateApprovedAFriend,12,15,2,4,12-15
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateArticle,31,42,4,8,31-42
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateArticleCommentConfiguration,11,13,2,4,11-13
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateConfigNumberOfRecordsInFriendsListAdmin,11,13,2,4,11-13
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateLastVisit,9,13,1,4,9-13
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateMarkPMUnreadOrRead,13,16,1,4,13-16
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateMarkedPMOldMsgViaAJAX,12,12,1,80,12-12
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateNumRecordsCookBookProfile,12,15,5,4,12-15
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateNumRecordsFriendsListProfile,12,15,5,4,12-15
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateNumberOfRecordsInCookBookAdmin,11,13,2,4,11-13
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdatePreferredLayoutPageSizeFromMyAccount,14,14,2,102,14-14
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateRecipe,77,81,1,4,77-81
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateShowHideCookBookInProfile,12,15,5,4,12-15
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateShowHideFriendsListProfile,12,15,5,4,12-15
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateUser,152,176,2,4,152-176
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateUserPreferredLayout,15,15,1,35,15-15
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateUserPreferredPageSize,29,33,3,4,29-33
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateUserReceivePM,10,13,2,4,10-13
+Security,Architecture - Multi-Layers and Data Access,"Avoid Functions and Procedures doing an Insert, Update or Delete without managing a transaction (SQL)",XDPortal.dbo.spUpdateUserReceivePMEmailAlert,10,13,2,4,10-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AddArticleRating,18,21,4,4,18-21
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AddComments,29,36,3,7,29-36
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AddRating,16,16,13,68,16-16
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminAddCookingArticle,27,43,2,18,27-43
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminAddNewArticleCategory,23,33,2,18,23-33
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminAddNewRecipeCategory,24,34,1,18,24-34
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminApproveRecipe,16,18,8,4,16-18
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminDeleteArticleCategory,15,15,5,62,15-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminDeleteArticleComments,12,12,5,52,12-12
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminDeleteRecipeCategory,19,19,5,46,19-19
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminDeleteRecipeComments,16,16,5,54,16-16
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminGetRecipeCategoryManager,13,23,5,4,13-23
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminGetRecipeComments,26,37,2,4,26-37
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminManagerDeleteRecipe,15,15,4,38,15-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminManagerGetRecipe,170,184,1,17,170-184
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminUpdateEmailAndSMTPAddress,16,20,1,4,16-20
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminUpdateLastViewedHours,15,17,5,4,15-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.AdminUpdateShowHideComment,15,17,5,4,15-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.ArticleCountAll,13,15,5,4,13-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.ArticleDelete,13,15,1,4,13-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.CategoryPage_Article,17,52,5,4,17-52
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.CategoryPage_GetRecipesCount,15,18,1,4,15-18
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.FinalizeArticleSubmission,15,18,2,4,15-18
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetArticleCategoryList,15,19,5,79,15-19
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetArticleCategoryListing,15,19,9,80,15-19
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetArticleCategoryName,15,17,2,4,15-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetArticleDetails,27,52,2,8,27-52
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetArticleForDropdownlist,13,15,2,4,13-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetArticleSearchResult,33,70,5,101,33-70
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetCategoryArticle,27,64,5,46,27-64
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetCategoryName,15,18,6,4,15-18
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetConfiguration,13,15,1,4,13-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetCountTotalRecipes,13,16,6,4,13-16
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetHomePageCategoryMainCourseRecipe,15,19,11,70,15-19
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetHomepageEthnicRegionalCategory,13,28,6,4,13-28
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetHompageTotalCategoryCount,13,15,5,4,13-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetLastArticleID,13,15,5,4,13-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetLastViewedRecipe,16,16,2,73,16-16
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetNewestArticleSidePanel,15,35,5,4,15-35
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetNewestRecipesSideMenu,37,54,4,4,37-54
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetRandomRecipe,35,51,1,4,35-51
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetRecipeCategory,64,72,1,4,64-72
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetRecipeCategoryListSideMenu,15,19,10,69,15-19
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetRecipeFirstAlphaLetterName,64,72,1,4,64-72
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetRecipeImageFileNameForUpdate,15,16,5,4,15-16
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetRecipeOfTheDay,36,48,5,36,36-48
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetRelatedRecipe,15,33,2,4,15-33
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetSearchResult,61,69,2,4,61-69
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetSortingRecipe,62,70,1,4,62-70
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetTopRecipesSideMenu,27,43,4,4,27-43
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetTotalCategoryCount,13,15,1,4,13-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetTotalCommentsCount,13,15,5,4,13-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetUnApprovedRecipeCount,13,15,5,4,13-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetXMLNewestRecipe,13,24,2,4,13-24
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.GetXMLToprecipe,13,24,2,4,13-24
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.UpdateArticleCategory,16,19,5,4,16-19
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.UpdateRecipeCategory,20,22,5,4,20-22
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spActivateAccount,11,11,16,83,11-11
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spAddRecipe,30,41,2,6,30-41
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spCheckEmailIfExistsAjax,11,17,5,4,11-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spCheckIfAccountIsActivated,11,17,2,4,11-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spCheckIfActivationCodeIsvalid,11,17,2,4,11-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spCheckIfFrienExistsInFriendsList,12,18,5,4,12-18
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spCheckUsernameAvailabilityAjax,11,18,2,4,11-18
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spCheckValidateProfileUserIDQuerystring,11,17,5,4,11-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spCountAllArticleComments,9,11,2,4,9-11
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spDeleteAFriendInFriendsList,15,19,11,4,15-19
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spDeleteAllPMInTrash,11,13,2,4,11-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spDeleteExceptionLog,11,11,40,83,11-11
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spDeleteMultipleRecipeComment,12,12,5,94,12-12
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spDeletePrivateMessage,12,14,2,4,12-14
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spDeletePrivateMessageSent,11,13,2,4,11-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spDeleteUnApprovedFriends,12,14,2,4,12-14
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spDeleteUser,23,23,2,48,23-23
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spDeleteUserRecipeInCookBook,12,15,8,4,12-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spGetActivationUserName,11,17,2,4,11-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spGetCountofUnApprovedArticle,9,15,2,4,9-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spGetRecipeDetail,60,63,7,4,60-63
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spGetUserID,12,18,2,4,12-18
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spInsertAFriendToFriendsList,17,17,16,106,17-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spInsertArticle,27,46,3,18,27-46
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spInsertArticleComment,35,45,3,18,35-45
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spInsertDeletedUserLog,13,16,2,4,13-16
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spInsertExceptionError,11,14,1,9,11-14
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spInsertFavoriteRecipeToCookBook,22,22,13,104,22-22
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spInsertIsProfilePagePublicOrPrivate,11,13,2,4,11-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spInsertPMBlockedUser,19,23,4,4,19-23
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spInsertPrivateMessage,16,16,13,87,16-16
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spInsertUser,108,160,2,18,108-160
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spMovePMBackToInbox,12,14,5,4,12-14
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spMovePMToTrash,12,14,5,4,12-14
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spReinstateUserAccount,17,17,3,63,17-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spRemovedUserFromPMBlockedList,12,14,2,4,12-14
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectAdminUserLogin,12,14,2,4,12-14
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectAllArticleByUser,30,70,3,35,30-70
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectAllPublicEvents,24,42,2,4,24-42
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectArticleCommentAdmin,22,33,2,4,22-33
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectCheckIfUserAlreadyBlocked,12,15,2,4,12-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectCheckUserActivation,12,18,2,4,12-18
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectCommentArticle,11,23,8,4,11-23
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectCommentRecipe,15,27,8,4,15-27
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectCountPMBlocklistedUsers,11,13,2,4,11-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectCountPMinTrashByUserID,11,13,2,4,11-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectCountSentPM,11,17,2,4,11-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectCountUnApprovedFriends,11,13,2,4,11-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectCountUserWhoAddMeInFriendsList,11,17,2,4,11-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectCountUsersWhoSavedMyRecipeInCookBook,11,25,2,4,11-25
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectDisplayAllMembers,20,22,1,16,20-22
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectDisplayAllMembersAdmin,42,131,3,55,42-131
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectEventWeekView,23,41,2,4,23-41
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectEventWeekViewBeginAndEndDate,33,33,3,28,33-33
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectFriendsList,13,13,2,107,13-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectFriendsListMainPage,18,39,2,4,18-39
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectFriendsListUserConfig,11,17,5,4,11-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectGetAllRecipeByUser,29,55,4,43,29-55
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectGetAllRecipeCommentByUser,17,25,1,16,17-25
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectGetPublicEventDetails,11,31,2,4,11-31
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectGetUserArticleCommentByUser,22,22,1,87,22-22
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectGetUserIDByUsername,11,17,2,4,11-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectIsProfilePagePublicOrPrivate,9,13,5,4,9-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectIsUserBlockedFromSendingPM,16,22,2,4,16-22
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectLast10UpdatedArticle,9,29,2,4,9-29
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectLast10UpdatedRecipe,9,28,2,4,9-28
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectLast20UserWhoSubmittedRecipe,16,20,3,21,16-20
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectLast20UsersWhoSubmittedArticle,9,26,2,4,9-26
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectLast25UsersWhoAddedAFriend,27,35,4,25,27-35
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectLast25UsersWhoAddedRecipeInCookBook,9,27,2,4,9-27
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectLast25UsersWhoCommentedARecipe,12,22,5,21,12-22
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectLast50ExceptionErrorLog,9,17,2,4,9-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectLast5ArticleByUser,11,26,2,4,11-26
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectLast5RecipeByUser,11,29,2,4,11-29
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectLast5UsersWhoSavedMyRecipeInCookBook,11,26,2,4,11-26
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectNewFriendsWaitingForApproval,11,33,2,4,11-33
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectOtherArticlesByThisAuthor,19,37,3,9,19-37
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectPMReadingMsgValidation,12,18,5,4,12-18
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectPMReadingSentMsgValidation,12,18,5,4,12-18
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectPastPublicEvents,64,74,6,4,64-74
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectPrivateMessageByPMID,11,17,2,4,11-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectPrivateMessageStatistic,16,18,1,4,16-18
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectPrivateMessages,52,85,4,44,52-85
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectReadPrivateMessage,28,30,2,4,28-30
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectReadSentPrivateMessage,12,28,2,4,12-28
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectRecipeCategory,13,25,2,4,13-25
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectRecoverLostPassword,12,15,3,7,12-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectRelatedArticle,14,17,2,9,14-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectSearchUser,55,64,2,4,55-64
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectShowAllPMBlockedUsersByUserID,11,24,2,4,11-24
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectSiteConfigurationAdmin,13,23,2,4,13-23
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectSiteStatistics,40,40,1,97,40-40
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectTop25UsersWhoCommentARecipe,9,15,2,4,9-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectTop25UsersWhoCommentAnArticle,9,15,2,4,9-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectTop50UsersWhoHasNotActivatedAnAccount,9,19,2,4,9-19
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUnApprovedArticle,9,26,2,4,9-26
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUpComingPublicEvents,51,63,6,11,51-63
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUser,22,22,1,108,22-22
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUserCookBookConfig,11,13,4,4,11-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUserNewPrivateMessage,11,17,2,4,11-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUserPhotoByUserID,11,13,2,4,11-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUserPrivateMessage,11,30,2,4,11-30
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUserStatus,10,16,2,4,10-16
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUsersCookBook,16,16,2,86,16-16
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUsersCookBookMain,26,63,3,26,26-63
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUsersFeaturesConfiguration,11,23,2,4,11-23
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUsersWhoSavedThisRecipeInCookBook,22,26,6,32,22-26
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectUsersrecipeInCookBook,15,37,2,4,15-37
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectViewDeleteduserLog,9,17,2,4,9-17
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectViewSuspenionNoteByuserID,11,19,2,4,11-19
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectViewUsersRecipeSavedPublishedByMe,12,24,2,4,12-24
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSelectWhoAddsMeInFriendsList,11,23,2,4,11-23
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spSuspendUserWithNote,21,26,3,4,21-26
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUdateApprovedAFriend,12,15,2,4,12-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateArticleCommentConfiguration,11,13,2,4,11-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateConfigNumberOfRecordsInFriendsListAdmin,11,13,2,4,11-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateLastVisit,9,13,1,4,9-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateMarkPMUnreadOrRead,13,16,1,4,13-16
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateMarkedPMOldMsgViaAJAX,12,12,1,80,12-12
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateNumRecordsCookBookProfile,12,15,5,4,12-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateNumRecordsFriendsListProfile,12,15,5,4,12-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateNumberOfRecordsInCookBookAdmin,11,13,2,4,11-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdatePreferredLayoutPageSizeFromMyAccount,14,14,2,102,14-14
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateShowHideCookBookInProfile,12,15,5,4,12-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateShowHideFriendsListProfile,12,15,5,4,12-15
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateUser,132,132,27,83,132-132
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateUserPreferredLayout,20,24,1,9,20-24
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateUserPreferredPageSize,22,23,1,6,22-23
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateUserReceivePM,10,13,2,4,10-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spUpdateUserReceivePMEmailAlert,10,13,2,4,10-13
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spValidateUsernameAndEmailOnRegistration,26,29,3,4,26-29
+Security,Programming Practices - Error and Exception Handling,"Avoid Procedures using an Insert, Update, Delete, Create Table or Select without including error management (SQL)",XDPortal.dbo.spVerifyUserLoginCredential,12,14,2,4,12-14
+Security,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\addarticle.aspx,179,179,40,58,179-179
+Security,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\articlemanager.aspx,172,172,40,61,172-172
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\commentsmanager.aspx,34,34,36,57,34-34
+Security,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\configuration.aspx,16,16,36,57,16-16
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\deleteduserlogview.aspx,16,16,36,57,16-16
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\deleteuser.aspx,16,16,36,57,16-16
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\membershipmanagers.aspx,24,24,36,57,24-24
+Security,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\popupviewusercookbook.aspx,16,16,36,57,16-16
+Security,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\popupviewuserfriendslist.aspx,16,16,36,57,16-16
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\recipemanager.aspx,12,12,36,57,12-12
+Security,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\suspenduserwithnote.aspx,16,16,36,57,16-16
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\editarticle.aspx,173,173,40,58,173-173
+Security,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\pmsend.aspx,183,183,40,58,183-183
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\popupuserprofile.aspx,19,19,36,54,19-19
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid calling a function in a termination loop (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\popupcalendarpicker.js.hideElement,46,46,21,47,46-46
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid calling a function in a termination loop (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\popupcalendarpicker.js.showElement,89,89,21,47,89-89
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid calling a function in a termination loop (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\table\editor_plugin_src.js._doExecCommand,787,787,31,63,787-787
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid calling a function in a termination loop (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\table\editor_plugin_src.js._doExecCommand.copyRow,440,440,27,58,440-440
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid calling a function in a termination loop (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\table\editor_plugin_src.js._doExecCommand.trimRow,342,342,25,56,342-342
+Security,Secure Coding - Input Validation,Avoid disabling ValidateRequest in ASPX page,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\addarticle.aspx,1,1,71,94,1-1
+Security,Secure Coding - Input Validation,Avoid disabling ValidateRequest in ASPX page,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\updatearticle.aspx,1,1,47,70,1-1
+Security,Secure Coding - Input Validation,Avoid disabling ValidateRequest in ASPX page,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\editarticle.aspx,1,1,71,94,1-1
+Security,Secure Coding - Input Validation,Avoid disabling ValidateRequest in ASPX page,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\pmsend.aspx,1,1,47,70,1-1
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestTextUsernamePost,45,45,6,16,45-45
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\popupAjax.js.sack.runAJAX,130,130,8,20,130-130
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\showimageajax.js.sack.runAJAX,130,130,8,20,130-130
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\fullscreen\editor_plugin_src.js.init.ed_addCommand_PARAM_2,44,46,8,7,44-46
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\template\js\template.js.getFileContents.g,88,89,6,5,88-89
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\themes\advanced\js\color_picker.js.setCol,248,250,4,3,248-250
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,XDRecipe.BL.ImageUploadManager.UploadRecipeImage,91,94,25,26,91-94
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,XDRecipe.BL.ImageUploadManager.UploadUserImage,202,205,21,22,202-205
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,XDRecipe.BL.Providers.Recipes.LastViewedRecipeProvider.GetMinuteSpan.get,40,42,17,18,40-42
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,admin_deleteuser.DeleteUser_Click,55,57,13,14,55-57
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,admin_recipemanager.BindData,247,249,9,10,247-249
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,admin_recipemanager.Delete_Recipes,593,595,13,14,593-595
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,editrecipe.Page_Load,71,74,13,14,71-74
+Security,Programming Practices - Error and Exception Handling,Avoid empty catch blocks,recipealphaletter.BindList,150,153,9,10,150-153
+Security,Programming Practices - Error and Exception Handling,Avoid empty finally blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestDeleteAFriend,256,256,6,15,256-256
+Security,Programming Practices - Error and Exception Handling,Avoid empty finally blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestDeleteSentPM,294,294,6,15,294-294
+Security,Programming Practices - Error and Exception Handling,Avoid empty finally blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestDeleteTrashInboxPM,275,275,6,15,275-275
+Security,Programming Practices - Error and Exception Handling,Avoid empty finally blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestDeleteUserRecipeInCookBook,237,237,6,15,237-237
+Security,Programming Practices - Error and Exception Handling,Avoid empty finally blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestEmailTextPost,85,85,6,15,85-85
+Security,Programming Practices - Error and Exception Handling,Avoid empty finally blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestEmptyTrash,313,313,6,15,313-313
+Security,Programming Practices - Error and Exception Handling,Avoid empty finally blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestLostPasswordTextPost,125,125,6,15,125-125
+Security,Programming Practices - Error and Exception Handling,Avoid empty finally blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestMarkOldMsg,163,163,6,15,163-163
+Security,Programming Practices - Error and Exception Handling,Avoid empty finally blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestMarkOldMsgOnClickIconImage,180,180,6,15,180-180
+Security,Programming Practices - Error and Exception Handling,Avoid empty finally blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestMovePMBackToInbox,218,218,6,15,218-218
+Security,Programming Practices - Error and Exception Handling,Avoid empty finally blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestMovePMToTrash,199,199,6,15,199-199
+Security,Programming Practices - Error and Exception Handling,Avoid empty finally blocks,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js.sendRequestTextUsernamePost,46,46,6,15,46-46
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid explicit comparison with NULL,XDPortal.dbo.spAddRecipe,34,37,2,6,34-37
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts deleting data on the same SQL table,XDPortal.dbo.COMMENTS_RECIPE,32,33,10,29,32-33
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts deleting data on the same SQL table,XDPortal.dbo.Cooking_Article,13,14,9,28,13-14
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts deleting data on the same SQL table,XDPortal.dbo.FriendsList,12,13,45,60,12-13
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts deleting data on the same SQL table,XDPortal.dbo.PrivateMessage,12,13,10,28,12-13
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts deleting data on the same SQL table,XDPortal.dbo.Recipes,17,18,10,21,17-18
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts deleting data on the same SQL table,XDPortal.dbo.userCookBook,23,24,10,26,23-24
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts inserting data on the same SQL Table,XDPortal.dbo.Cooking_Article,27,28,16,31,27-28
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts inserting data on the same SQL Table,XDPortal.dbo.UserSuspenionLog,20,21,16,36,20-21
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts updating data on the same SQL Table,XDPortal.dbo.Configuration,16,17,9,22,16-17
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts updating data on the same SQL Table,XDPortal.dbo.Cooking_Article,15,16,13,32,15-16
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts updating data on the same SQL Table,XDPortal.dbo.FriendsList,17,18,31,46,17-18
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts updating data on the same SQL Table,XDPortal.dbo.PrivateMessage,13,14,9,27,13-14
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts updating data on the same SQL Table,XDPortal.dbo.Recipes,18,19,12,23,18-19
+Security,Architecture - Multi-Layers and Data Access,Avoid having multiple artifacts updating data on the same SQL Table,XDPortal.dbo.usersmain,12,13,13,26,12-13
+Security,Secure Coding - Input Validation,Avoid hidden form fields to prevent parameter tampering (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\addrecipe.aspx,40,40,17,25,40-40
+Security,Secure Coding - Input Validation,Avoid hidden form fields to prevent parameter tampering (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\commentsmanager.aspx,36,36,13,21,36-36
+Security,Secure Coding - Input Validation,Avoid hidden form fields to prevent parameter tampering (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\editing.aspx,86,86,30,38,86-86
+Security,Secure Coding - Input Validation,Avoid hidden form fields to prevent parameter tampering (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\exceptionlogmanager.aspx,52,52,13,21,52-52
+Security,Secure Coding - Input Validation,Avoid hidden form fields to prevent parameter tampering (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\updatearticle.aspx,78,78,19,27,78-78
+Security,Secure Coding - Input Validation,Avoid hidden form fields to prevent parameter tampering (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\articledetail.aspx,162,162,17,25,162-162
+Security,Secure Coding - Input Validation,Avoid hidden form fields to prevent parameter tampering (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\editrecipe.aspx,41,41,17,25,41-41
+Security,Secure Coding - Input Validation,Avoid hidden form fields to prevent parameter tampering (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\recipedetail.aspx,164,164,17,25,164-164
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid method invocation in a loop termination expression,XDRecipe.Common.Caching.PurgeCacheItems,65,65,31,39,65-65
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid method invocation in a loop termination expression,XDRecipe.Common.DropdownlistHelper.FillUpDropDown,29,29,23,31,29-29
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid method invocation in a loop termination expression,test.PrintDay,96,96,42,56,96-96
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,AjaxRequest.Page_Load,37,90,13,14,37-90
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\popupAjax.js.sack.runAJAX.onreadystatechange,135,163,6,7,135-163
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\showimageajax.js.sack.runAJAX.onreadystatechange,135,163,6,7,135-163
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_SetOpa,1253,1263,3,4,1253-1263
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\advimage\js\image.js.getAttrib,187,234,4,5,187-234
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\compat2x\editor_plugin_src.js.switchClass,153,167,6,7,153-167
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\fullpage\js\fullpage.js.init.tinymce_each_PARAM_2,144,153,3,4,144-153
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\inlinepopups\editor_plugin_src.js._startDrag.Event_add_PARAM_3,384,423,5,6,384-423
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\inlinepopups\editor_plugin_src.js.open.Event_add_PARAM_3,227,236,6,7,227-236
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\media\editor_plugin_src.js.init.ed.onPreProcess_add_PARAM_1.each_PARAM_2,121,151,7,8,121-151
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\media\js\media.js.generatePreview,552,582,2,3,552-582
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\media\js\media.js.init,68,149,3,4,68-149
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\media\js\media.js.insertMedia,233,257,3,4,233-257
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\media\js\media.js.serializeParameters,370,451,2,3,370-451
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\paste\editor_plugin_src.js._insertWordContent,204,212,5,6,204-212
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\safari\editor_plugin_src.js.init.ed.onSetContent_add_PARAM_1.each_PARAM_2.each_PARAM_2,230,258,7,8,230-258
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\searchreplace\js\searchreplace.js.searchNext,66,100,3,4,66-100
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\table\editor_plugin_src.js._doExecCommand,568,1119,7,8,568-1119
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\table\editor_plugin_src.js.execCommand,168,191,4,5,168-191
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\table\js\cell.js.updateAction,71,126,2,3,71-126
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\table\js\row.js.updateAction,60,83,2,3,60-83
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\themes\advanced\editor_template_src.js._nodeChanged.ed.dom_getParent_PARAM_2,926,972,6,7,926-972
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\themes\advanced\editor_template_src.js.createControl,161,179,4,5,161-179
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\themes\advanced\js\image.js.getAttrib,163,209,4,5,163-209
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,XDRecipe.BL.Addrating.Insert,52,63,13,14,52-63
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,XDRecipe.BL.CookieRating.GetUserCookieRating,35,58,13,14,35-58
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,XDRecipe.Common.EventCalendar.EventCalendar.GetDayNameAbbrev,93,116,13,14,93-116
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,XDRecipe.Common.Utilities.Utility.GetDayNameAbbrev,113,136,13,14,113-136
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,XDRecipe.Common.Utilities.Utility.GetMonthName,148,187,13,14,148-187
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,XDRecipe.Common.Utilities.Utility.GetSortOptionOrderBy,759,767,13,14,759-767
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,XDRecipe.Common.Utilities.Utility.GetSquentialNumber,604,666,13,14,604-666
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,XDRecipe.Common.Utilities.Utility.PageRedirect,255,287,13,14,255-287
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,XDRecipe.Security.UserNameAndEmailValidation.ErrMsg.get,91,104,17,18,91-104
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,XDRecipe.Security.UserNameAndEmailValidation.IsValid.get,59,76,17,18,59-76
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,admin_confirmusersuspenddeleteedit.Page_Load,22,39,13,14,22-39
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,admin_recipemanager.dgRecipe_ItemDataBound,709,787,13,14,709-787
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,configuration.GetLastViewedCurrentSetting,137,169,9,10,137-169
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,confirmlayoutchange.Page_Load,33,42,17,18,33-42
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,confirmupdatepmconfig.Page_Load,21,30,13,14,21-30
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,confirmupdateprivatemsg.Page_Load,21,50,13,14,21-50
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,membershipmanagers.GetPreferredLayout,238,251,9,10,238-251
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,myaccount.GetDDLSelectedValue,223,236,9,10,223-236
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,myaccount.GetReturnFromUpdateMsg,359,374,13,14,359-374
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,pmsend.GetMethodMode,90,105,9,10,90-105
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,redirectionpage.Page_Load,81,96,13,14,81-96
+Security,Programming Practices - Error and Exception Handling,Avoid missing default in switch statements,searchuser.ConditionTextMsg.get,89,112,13,14,89-112
+Efficiency,"Efficiency - Memory, Network and Disk Space Management","Avoid missing release of SQL connection after an effective lifetime (C#, VB.NET)",XDRecipe.DAL.DataAccess.Execute,285,314,9,10,285-314
+Efficiency,"Efficiency - Memory, Network and Disk Space Management","Avoid missing release of SQL connection after an effective lifetime (C#, VB.NET)",XDRecipe.DAL.DataAccess.GetFromDataTable,47,81,9,10,47-81
+Efficiency,"Efficiency - Memory, Network and Disk Space Management","Avoid missing release of SQL connection after an effective lifetime (C#, VB.NET)",XDRecipe.DAL.DataAccess.GetFromReader,133,161,9,10,133-161
+Efficiency,"Efficiency - Memory, Network and Disk Space Management","Avoid missing release of SQL connection after an effective lifetime (C#, VB.NET)",XDRecipe.DAL.DataAccess.GetInt32,212,246,9,10,212-246
+Security,"Efficiency - Memory, Network and Disk Space Management","Avoid missing release of SQL connection after an effective lifetime (C#, VB.NET)",XDRecipe.DAL.DataAccess.GetIntScalarVal,252,277,9,10,252-277
+Security,"Efficiency - Memory, Network and Disk Space Management","Avoid missing release of SQL connection after an effective lifetime (C#, VB.NET)",XDRecipe.DAL.DataAccess.GetString,169,204,9,10,169-204
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid missing release of stream connection after an effective lifetime,XDRecipe.Security.Encryption.Decrypt,117,117,26,89,117-117
+Security,"Efficiency - Memory, Network and Disk Space Management",Avoid missing release of stream connection after an effective lifetime,XDRecipe.Security.Encryption.Encrypt,71,71,26,91,71-71
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-SARGable queries,XDPortal.dbo.GetLastViewedRecipe,30,40,4,57,30-40
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-SARGable queries,XDPortal.dbo.GetRecipeOfTheDay,25,53,1,4,25-53
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-SARGable queries,XDPortal.dbo.spSelectEventWeekViewBeginAndEndDate,49,52,24,19,49-52
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-SARGable queries,XDPortal.dbo.spSelectPrivateMessageStatistic,14,14,1,119,14-14
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-SARGable queries,XDPortal.dbo.spSelectSiteStatistics,37,37,1,143,37-37
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.AdminGetRecipeComments,26,37,2,4,26-37
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.ArticleCountAll,13,15,5,4,13-15
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetAlphaLetterCount,20,20,3,77,20-20
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetCountTotalRecipes,1,21,1,2,1-21
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetHomePageCategoryMainCourseRecipe,13,28,6,4,13-28
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetHomepageEthnicRegionalCategory,13,28,6,4,13-28
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetLastViewedRecipe,20,20,3,77,20-20
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetRecipeFirstAlphaLetterName,1,21,1,2,1-21
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetSearchResultArticleCount,33,34,31,54,33-34
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetSearchResultCount,1,21,1,2,1-21
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetSortingRecipe,20,20,3,77,20-20
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetUnApprovedRecipeCount,1,21,1,2,1-21
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetXMLNewestRecipe,13,24,2,4,13-24
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetXMLToprecipe,13,24,2,4,13-24
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spActivateAccount,14,20,11,4,14-20
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spCheckEmailIfExistsAjax,1,39,1,2,1-39
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spCheckIfAccountIsActivated,38,38,3,78,38-38
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spCheckIfActivationCodeIsvalid,11,17,2,4,11-17
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spCheckUsernameAvailabilityAjax,38,38,3,78,38-38
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spDeleteAllPMInTrash,1,13,1,2,1-13
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spDeleteUser,32,34,2,4,32-34
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spGetActivationUserName,11,17,2,4,11-17
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spGetCountofUnApprovedArticle,9,15,2,4,9-15
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spGetUserID,12,18,2,4,12-18
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spInsertPrivateMessage,38,38,3,78,38-38
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectAdminUserLogin,8,8,3,77,8-8
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectAllArticleByUser,22,22,1,87,22-22
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectAllPublicEvents,1,14,1,2,1-14
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectArticleCommentAdmin,1,10,1,2,1-10
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectCheckUserActivation,12,18,2,4,12-18
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectCommentArticle,11,23,8,4,11-23
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectCommentRecipe,15,27,8,4,15-27
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectCountPMinTrashByUserID,12,12,3,79,12-12
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectCountSentPM,11,17,2,4,11-17
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectEventWeekView,13,13,3,83,13-13
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectGetAllRecipeByUser,21,21,1,87,21-21
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectGetAllRecipeCommentByUser,17,25,1,16,17-25
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectGetUserArticleCommentByUser,9,9,3,81,9-9
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectGetUserIDByUsername,1,39,1,2,1-39
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectIsUserBlockedFromSendingPM,38,38,3,78,38-38
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectLast25UsersWhoCommentedARecipe,10,10,3,81,10-10
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectPastPublicEvents,51,63,6,11,51-63
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectPrivateMessageStatistic,1,13,1,2,1-13
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectPrivateMessages,1,13,1,2,1-13
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectRecoverLostPassword,1,39,1,2,1-39
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectSearchUser,22,52,3,61,22-52
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectSiteStatistics,40,40,1,97,40-40
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectTop50UsersWhoHasNotActivatedAnAccount,1,39,1,2,1-39
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectUpComingPublicEvents,1,14,1,2,1-14
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectUser,1,10,1,2,1-10
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectUserNewPrivateMessage,11,17,2,4,11-17
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectUserPrivateMessage,11,30,2,4,11-30
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectUserStatus,38,38,3,78,38-38
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spValidateUsernameAndEmailOnRegistration,16,16,17,99,16-16
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spVerifyUserLoginCredential,1,39,1,2,1-39
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.usersview,1,8,1,2,1-8
+Security,Programming Practices - Error and Exception Handling,Avoid rethrowing exception explicitly,XDRecipe.BL.Providers.Article.ProviderArticleCategoryDropdown.createCategoryListArticle,58,58,19,33,58-58
+Security,Programming Practices - Error and Exception Handling,Avoid rethrowing exception explicitly,XDRecipe.BL.Providers.Recipes.ProviderRecipeCategoryDropdown.createCategoryListRecipe,61,61,17,26,61-61
+Security,Programming Practices - Error and Exception Handling,Avoid rethrowing exception explicitly,XDRecipe.BL.Providers.Recipes.RandomRecipe.FillUp,79,79,19,33,79-79
+Security,Programming Practices - Error and Exception Handling,Avoid rethrowing exception explicitly,XDRecipe.BL.Providers.Recipes.RecipeoftheDay.FillUp,90,90,19,28,90-90
+Security,Secure Coding - API Abuse,Avoid storing passwords in Comments,test.Page_Load,363,363,9,124,363-363
+Security,Programming Practices - Error and Exception Handling,Avoid throwing exception from property getters,XDRecipe.DAL.DataAccess.ConnectionString.get,36,36,27,153,36-36
+Security,Secure Coding - Encapsulation,Avoid types that own disposable fields and are not disposable,XDRecipe.Model.Comment,49,49,28,41,49-49
+Security,Secure Coding - Encapsulation,Avoid types that own disposable fields and are not disposable,XDRecipe.Model.Rating,37,37,31,43,37-37
+Security,Programming Practices - Unexpected Behavior,Avoid unqualified column references,XDPortal.dbo.CategoryPage_Article,17,52,5,4,17-52
+Security,Programming Practices - Unexpected Behavior,Avoid unqualified column references,XDPortal.dbo.GetArticleSearchResult,33,70,5,101,33-70
+Security,Programming Practices - Unexpected Behavior,Avoid unqualified column references,XDPortal.dbo.spSelectLast5ArticleByUser,11,26,2,4,11-26
+Security,Secure Coding - Weak Security Features,Avoid using .append() after() with jQuery 1.4.2 (or older),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js,356,356,40,126,356-356
+Security,Secure Coding - Weak Security Features,Avoid using .append() after() with jQuery 1.4.2 (or older),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\alertbox.js,60,60,14,238,60-60
+Security,Secure Coding - Weak Security Features,Avoid using Ajax method without dataType with jQuery version older than 3.0.0,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js,409,415,5,7,409-415
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using DISTINCT in SQL SELECT statements,XDPortal.dbo.spSelectEventWeekViewBeginAndEndDate,18,57,2,21,18-57
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using DISTINCT in SQL SELECT statements,XDPortal.dbo.spSelectUsersWhoSavedThisRecipeInCookBook,22,26,6,32,22-26
+Security,"Efficiency - Memory, Network and Disk Space Management",Avoid using Javascript Document.all collection,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\popupcalendarpicker.js.init,162,162,78,101,162-162
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid using Javascript Document.all collection,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\rcipejs.js.bookmark,46,46,9,21,46-46
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid using Javascript Document.all collection,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_Browser,339,339,37,49,339-339
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid using Javascript Document.all collection,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_GetElt,222,222,21,37,222-222
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,AjaxRequest.DeleteAFriend,324,324,58,95,324-324
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,AjaxRequest.DeleteInBoxPM,249,249,30,68,249-249
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,AjaxRequest.DeleteSentPM,272,272,34,72,272-272
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,AjaxRequest.DeleteUserRecipeInCookBook,307,307,78,115,307-307
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,AjaxRequest.GetPublicEventDetails,374,374,65,117,374-374
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,AjaxRequest.MarkPMAsOldMessageOnImageIconClick,195,195,52,89,195-195
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,AjaxRequest.MarkPrivateMessageAsOldMessage,176,176,74,112,176-176
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,AjaxRequest.MovePrivateMessageBackToInbox,230,230,63,101,230-230
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,AjaxRequest.MovePrivateMessageToTrash,213,213,59,97,213-213
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,XDRecipe.Common.Utilities.Utility.IsNumeric,974,974,17,36,974-974
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,XDRecipe.Common.Utilities.Utility.Val,848,848,36,71,848-848
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,addarticle.Add_Article,58,58,29,76,58-58
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,addrecipe.Add_Recipe,60,60,32,76,60-60
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_articlecommentmanager.ArticleComments_RowCommand,119,119,25,67,119-119
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_articlecommentmanager.DeleteAllSelectedItems_Click,165,165,29,88,165-165
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_articlecommentmanager.Update_Comments,98,98,22,55,98-98
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_articlemanager.ApprovedDelete_Article,147,147,26,68,147-147
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_articlemanager.Update_Category,214,214,26,63,214-214
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_categorymanager.Add_Category,116,116,31,65,116-116
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_categorymanager.Delete_Category,90,90,26,63,90-90
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_categorymanager.Edit_Handle,182,182,171,196,182-182
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_categorymanager.Update_Category,65,65,26,63,65-65
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_commentsmanager.DeleteAllSelectedItems_Click,168,168,29,87,168-168
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_commentsmanager.RecipeComments_RowCommand,119,119,25,67,119-119
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_commentsmanager.Update_Comments,97,97,22,55,97-97
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_confirmusersuspenddeleteedit.Page_Load,20,20,26,63,20-20
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_deleteuser.DeleteUser_Click,31,31,22,59,31-31
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_editing.Update_Recipe,68,68,22,55,68-68
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_editprofile.Page_Load,30,30,23,60,30-30
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_editprofile.Update_User,97,97,31,102,97-97
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_popupviewusercookbook.Page_Load,20,20,26,63,20-20
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_popupviewuserfriendslist.Page_Load,20,20,26,63,20-20
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_popupviewusersuspenionnote.Page_Load,20,20,26,63,20-20
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_recipemanager.Delete_Recipes,606,606,25,51,606-606
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_recipemanager.MonthSearch,437,437,72,111,437-437
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_suspenduserwithnote.Page_Load,34,34,26,63,34-34
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_suspenduserwithnote.Suspend_User,45,45,26,63,45-45
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,admin_updatearticle.Update_Article,68,68,25,70,68-68
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,configuration.AdminUpdateLastViewedHours_Click,175,175,71,116,175-175
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,configuration.ConfigProfilePage_Click,113,113,37,84,113-113
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,configuration.CookBookSetting_Click,120,120,59,119,120-120
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,configuration.EnabledDisableArticleComment_Click,106,106,50,102,106-106
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,configuration.EnabledDisbledRecipeComment_Click,98,98,71,109,98-98
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,configuration.FriendsListSetting_Click,127,127,62,114,127-127
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,confirmaddeditrecipe.Page_Load,21,21,83,119,21-21
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,confirmlayoutchange.Page_Load,36,36,79,120,36-36
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,editarticle.Update_Article,84,84,29,76,84-84
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,editprofile.Update_User,105,105,34,104,105-105
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,editrecipe.Update_Recipe,92,92,28,72,92-92
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,eventdetail.Page_Load,23,23,22,58,23-23
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,events.FilterEvent,316,316,41,73,316-316
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,events.NumberOfDays,345,345,31,66,345-345
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,eventweekview.InitializeValue,93,93,20,57,93-93
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,eventweekview.NextWeek,114,114,23,66,114-114
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,eventweekview.PopulateDDLNumWeek,154,154,240,277,154-154
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,eventweekview.PreviousWeek,123,123,23,66,123-123
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,eventweekview.ShowBeginAndEndDate,61,61,26,55,61-61
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,eventweekview.dt,234,234,20,57,234-234
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,membershipmanagers.EditSuspendDelete_User,433,433,22,65,433-433
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,membershipmanagers.GetPreferredLayout,234,234,19,49,234-234
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,membershipmanagers.IsShowInProfile,224,224,19,49,224-224
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,membershipmanagers.Page_Load,73,73,23,64,73-73
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,myaccount.UpdatePreferredLayoutPageSize_Click,383,383,17,70,383-383
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,myaccount.UpdateReceivePMEmailAlert_Click,403,403,67,129,403-403
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,myaccount.UpdateReceivePM_Click,393,393,57,109,393-393
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,pmblockedusers.PMBlockedUsers_Command,88,88,22,64,88-88
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,pmsend.GetMethodMode,103,103,53,91,103-103
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,pmview.PMViewInBox_Command,292,292,31,76,292-292
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,registration.Add_User,71,71,30,100,71-71
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,searchuser.ConditionTextMsg.get,85,85,29,74,85-85
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,testcal.InitializeValue,98,98,26,55,98-98
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,testcal.NextWeek,123,123,23,66,123-123
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,testcal.PreviousWeek,132,132,23,66,132-132
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,testcal.ShowBeginAndEndDate,65,65,26,55,65-65
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,userconfigfetaures.UpdateNumRecordsCookBook_Click,74,74,66,120,74-74
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,userconfigfetaures.UpdateNumRecordsFriendsList_Click,79,79,75,132,79-79
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,userconfigfetaures.UpdateShowHideCookBook_Click,62,62,69,131,62-62
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,userconfigfetaures.UpdateShowHideFriendsList_Click,56,56,62,127,56-56
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,userprofile.AddAFriendSendEmailNotification,470,470,24,61,470-470
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,userprofile.Add_Friend,458,458,28,65,458-458
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,usersearchtab.SearchUserbasic_Click,16,16,115,164,16-16
+Security,Programming Practices - Unexpected Behavior,Avoid using Parse for primitive types and used instead TryParse,viewunapprovedfriends.Delete_Friend,109,109,18,60,109-109
+Security,Secure Coding - Time and State,Avoid using Regex constructor or static method without timeout,XDRecipe.Common.Utilities.Utility.WordCount,998,998,25,42,998-998
+Security,Secure Coding - Time and State,Avoid using Regex constructor or static method without timeout,XDRecipe.Common.Validator.IsAlphaNumericOnly,22,22,20,69,22-22
+Security,Secure Coding - Time and State,Avoid using Regex constructor or static method without timeout,XDRecipe.Common.Validator.IsValidEmail,30,30,20,88,30-30
+Security,Secure Coding - Time and State,Avoid using Regex constructor or static method without timeout,XDRecipe.Common.Validator.IsValidName,38,38,20,61,38-38
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using css() of many elements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\alertbox.js,142,142,11,37,142-142
+Security,Secure Coding - Input Validation,Avoid using eval() (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\popupAjax.js.sack.runResponse,98,98,3,22,98-98
+Security,Secure Coding - Input Validation,Avoid using eval() (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\showimageajax.js.sack.runResponse,98,98,3,22,98-98
+Security,Secure Coding - Input Validation,Avoid using eval() (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_ExtCmdEnum,1281,1281,6,39,1281-1281
+Security,Secure Coding - Input Validation,Avoid using eval() (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_MkCmdEnum,329,329,3,61,329-329
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\dragtable.js.forEach,414,414,12,25,414-414
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\rcipejs.js.doSubmit,59,59,18,33,59-59
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_ExtCmdEnum,1278,1278,10,21,1278-1278
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_MkCmdEnum,328,328,10,21,328-328
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_ReadCmds,564,564,10,21,564-564
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\compat2x\editor_plugin_src.js.openWindow,383,383,10,18,383-383
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\media\js\embed.js.writeEmbed,62,62,7,13,62-62
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\media\js\media.js.generatePreview,607,607,8,15,607-607
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\preview\jscripts\embed.js.writeEmbed,67,67,7,13,67-67
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\themes\advanced\js\color_picker.js.generateNamedColors,179,179,7,17,179-179
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\utils\validate.js.init,90,90,8,14,90-90
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using forEach(),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\dragtable.js.forEach,446,446,5,44,446-446
+Security,Secure Coding - Input Validation,Avoid using javascript or expression in the CSS file,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\CSS\thickbox.css,154,154,14,24,154-154
+Security,Secure Coding - Input Validation,Avoid using setInterval() (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\popupcalendarpicker.js.StartDecMonth,227,227,17,45,227-227
+Security,Secure Coding - Input Validation,Avoid using setInterval() (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\popupcalendarpicker.js.StartIncMonth,232,232,17,45,232-232
+Security,Secure Coding - Input Validation,Avoid using setTimeout() (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.Timer,1184,1184,16,40,1184-1184
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectGetAllRecipeCommentByUser,30,72,4,28,30-72
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectGetUserArticleCommentByUser,30,89,3,23,30-89
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast10UpdatedArticle,15,18,6,18,15-18
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast10UpdatedRecipe,14,17,6,18,14-17
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast20UserWhoSubmittedRecipe,16,20,3,21,16-20
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast20UsersWhoSubmittedArticle,16,20,3,26,16-20
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast25UsersWhoAddedAFriend,9,41,2,4,9-41
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast25UsersWhoAddedRecipeInCookBook,9,27,2,4,9-27
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast25UsersWhoCommentedARecipe,12,22,5,21,12-22
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast5UsersWhoSavedMyRecipeInCookBook,11,26,2,4,11-26
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectTop25UsersWhoCommentARecipe,9,15,2,4,9-15
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectTop25UsersWhoCommentAnArticle,9,15,2,4,9-15
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.usersview,66,67,4,18,66-67
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),MyCookBook.SavedRecipeInCookBook_ItemDataBound,98,110,5,6,98-110
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),MyCookBook.Util.get,30,30,9,38,30-30
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),SiteTemplate.Page_Load,20,22,5,6,20-22
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),SiteTemplate2.Page_Load,19,22,5,6,19-22
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),Upcomingevents.CustomDateFormat,19,23,5,6,19-23
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AddArticle,2351,2376,8,9,2351-2376
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AddComment,2877,2895,9,9,2877-2895
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AddRecipe,2847,2871,8,9,2847-2871
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminAddNewArticleCategory,2810,2816,8,9,2810-2816
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminAddNewRecipeCategory,2766,2775,9,9,2766-2775
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminApproveRecipe,2619,2625,8,9,2619-2625
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminDeleteArticle,2433,2439,9,9,2433-2439
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminDeleteArticleCategory,2798,2804,9,9,2798-2804
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminDeleteRecipeCategory,2754,2760,9,9,2754-2760
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminDeleteRecipeComments,2706,2715,9,9,2706-2715
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminGetArticleComments,213,219,7,8,213-219
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminGetRecipeCategoryManager.get,227,227,11,84,227-227
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminGetRecipeComments,271,277,7,8,271-277
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminRecipeManager,2562,2586,8,9,2562-2586
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminRecipeManagerDelete,2607,2613,9,9,2607-2613
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminRecipeManagerGetTotalComments.get,2219,2219,12,79,2219-2219
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminRecipeManagerGetWaitingforApprovalCount.get,2228,2228,12,82,2228-2228
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminRecipeManagerWithCustomPaging,2520,2556,9,10,2520-2556
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminUpdateEmailAndSMTPAddress,2592,2601,8,9,2592-2601
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminUpdateLastViewedHours,2631,2637,8,9,2631-2637
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminUpdateShowHideComment,2643,2649,8,9,2643-2649
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.ArticleCountAll.get,2192,2192,12,73,2192-2192
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.CategoryCount,2169,2175,8,9,2169-2175
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.DeleteArticleComment,2100,2109,7,8,2100-2109
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.DeleteMultipleArticleComment,2115,2124,7,8,2115-2124
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.EventWeekViewBeginAndEndDate,1616,1625,9,8,1616-1625
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.FinalizeAddArticle,2412,2418,8,9,2412-2418
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetAllArticleByAuthor,2470,2488,8,9,2470-2488
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetAllArticleCommentedByUser,2493,2511,8,9,2493-2511
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetAllPublicEventsCalendar,1583,1595,9,8,1583-1595
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetAllRecipeCommentedByUser,2022,2037,7,8,2022-2037
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetAllRecipeSubmittedByUser,2002,2017,7,8,2002-2017
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticleCategory,2309,2318,8,9,2309-2318
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticleCategoryList.get,2240,2240,12,78,2240-2240
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticleCategoryName,2324,2330,8,9,2324-2330
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticleComments,2129,2135,7,8,2129-2135
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticleDetail,141,150,9,9,141-150
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticleSearchResult,2444,2465,9,9,2444-2465
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticlesInCategory,2258,2276,9,9,2258-2276
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetCatName,235,241,7,8,235-241
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetCategoryHomePage.get,53,53,11,77,53-53
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetCommentsRecipeDetail,156,162,8,9,156-162
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetHomepageEthnicRegionalCategory.get,80,80,11,88,80-80
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetHomepageMainCourseCategory.get,71,71,13,92,71-71
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetHomepageRecipeoftheDay.get,89,89,11,72,89-89
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetHomepageTotalCategoryCount.get,2201,2201,12,86,2201-2201
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetHomepageTotalRecipeCount.get,2210,2210,12,78,2210-2210
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast10UpdatedArticle.get,444,444,13,85,444-444
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast10UpdatedRecipe.get,453,453,13,84,453-453
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast20UserWhoSubmittedRecipe.get,370,370,13,93,370-370
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast20UsersWhoSubmittedArticle.get,379,379,13,95,379-379
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast25UsersWhoAddedAFriend.get,397,397,13,91,397-397
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast25UsersWhoAddedRecipeInCookBook.get,406,406,13,100,406-406
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast25UsersWhoCommentedARecipe.get,415,415,13,95,415-415
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast50ExceptionErrorLog.get,388,388,13,88,388-388
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast5ArticleByUser,470,476,9,10,470-476
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast5RecipeByUser,459,465,9,10,459-465
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast5UsersWhoSavedMyRecipeInCookBook,699,705,9,8,699-705
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLastArticleID.get,2426,2426,12,72,2426-2426
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLastViewedRecipe.get,98,98,13,76,98-98
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetMostpopularRecipesSideMenu,2043,2052,7,8,2043-2052
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetNewFriendsWaitingForApproval,1793,1799,9,8,1793-1799
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetNewestArticleSidePanel,2247,2253,9,9,2247-2253
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetNewestRecipesSideMenu,180,189,8,8,180-189
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetPastPublicEvents,1571,1577,9,10,1571-1577
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetPrivateMessageStatistic.get,1335,1335,11,86,1335-1335
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetPublicEventDetails,1630,1636,9,8,1630-1636
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRSSMostPopularRecipe.get,197,197,11,70,197-197
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRSSNewestRecipe.get,206,206,11,73,206-206
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRandomRecipeSideMenu,114,120,8,9,114-120
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRecipeAlphaLetterWithPaging,1934,1952,9,8,1934-1952
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRecipeCategoryDropdownlist.get,62,62,11,77,62-62
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRecipeCategoryList_SideMenu.get,107,107,12,85,107-107
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRecipeCategoryWithCustomPaging,1908,1926,9,8,1908-1926
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRecipeDetail,126,135,9,10,126-135
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRecipeImageFileNameForUpdate,247,253,9,8,247-253
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRelatedArticle,2295,2304,9,9,2295-2304
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRelatedRecipe,168,174,8,9,168-174
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetSearchResult,1978,1996,9,8,1978-1996
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetSiteConfiguration.get,511,511,13,87,511-511
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetSortRecipePage,1958,1973,9,8,1958-1973
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetTop10OtherArticlesByThisAuthor,2281,2290,9,9,2281-2290
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetTop25UsersWhoCommentARecipe.get,493,493,13,92,493-493
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetTop25UsersWhoCommentAnArticle.get,502,502,13,94,502-502
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetTop50UsersWhoHasNotActivatedAnAccount.get,424,424,13,102,424-424
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUnApprovedArticle.get,308,308,13,82,308-308
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUpComingMonthPublicEvents,1559,1565,9,10,1559-1565
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUserPhotoByUserID,259,265,9,8,259-265
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsers,1128,1134,7,8,1128-1134
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersCookBook,1838,1844,9,8,1838-1844
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersCookBookMain,1850,1868,9,8,1850-1868
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersFeaturesConfiguration,687,693,9,8,687-693
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersFriendsList,1705,1714,9,8,1705-1714
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersFriendsListMain,1693,1699,7,8,1693-1699
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersPrivateMessages,1191,1212,7,8,1191-1212
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersReadPrivateMessage,1218,1227,9,8,1218-1227
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersReadSentPrivateMessage,1233,1242,9,8,1233-1242
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersRecipeInCookBook,1823,1832,7,8,1823-1832
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersSuspenionNote,771,777,7,8,771-777
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersWhoAddMeInFriendsList,1719,1725,7,8,1719-1725
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersWhoSavedThisRecipeInCookBook,711,717,9,8,711-717
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetViewUsersRecipeSavedPublishedByMe,1888,1897,9,8,1888-1897
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.InsertArticleComment,2061,2079,7,8,2061-2079
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.MarkPMasOldMsgViaAjax,1413,1422,7,8,1413-1422
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.PublicEventWeekView,1601,1610,7,8,1601-1610
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.RecoverLostPassword,1034,1040,7,8,1034-1040
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.SearchUser,783,798,9,8,783-798
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.ShowAllMembers,804,819,9,8,804-819
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.ShowAllMembersAdmin,825,846,7,8,825-846
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.ShowAllPMBlockedUsersByUserID,1456,1462,9,8,1456-1462
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.SiteStatisticsCounter.get,299,299,13,79,299-299
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.UpdateArticle,2382,2406,9,9,2382-2406
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.UpdateArticleCategory,2783,2792,9,9,2783-2792
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.UpdateArticleComment,2085,2094,7,8,2085-2094
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.UpdateRecipe,2655,2683,9,9,2655-2683
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.UpdateRecipeCategory,2739,2748,9,9,2739-2748
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.UpdateRecipeComments,2691,2700,9,9,2691-2700
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.ValidateUsernameAndEmail,1046,1055,7,8,1046-1055
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.ViewDeletedUsersLog.get,484,484,13,83,484-484
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.EmailTemplate.GetAdminFromEmail.get,45,45,13,78,45-45
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.EmailTemplate.GetAdminToEmail.get,40,40,13,76,40-40
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.EventCalendar.EventCalendar.GetDayNameAbbrev,89,119,9,10,89-119
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.EventCalendar.EventCalendar.GetMonthNameOrAbbrev,124,129,9,10,124-129
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.EventCalendar.EventCalendar.SetupCalendarItem,229,238,9,10,229-238
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.Convert<T>,80,90,9,10,80-90
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),"XDRecipe.Common.ExtendedCollection<T>.ConvertAll<T, TOutput>",105,113,9,10,105-113
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.ConvertToNonNullable<T>,118,124,9,10,118-124
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.Filter<T>,167,176,9,10,167-176
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.GetMaxDouble,406,415,9,10,406-415
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.GetMaxInt,350,359,9,10,350-359
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.GetMinDouble,434,443,9,10,434-443
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.GetMinInt,378,387,9,10,378-387
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.GetSumDouble,496,507,9,10,496-507
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.GetSumInt,448,459,9,10,448-459
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.RemoveAll<T>,561,571,9,10,561-571
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.FormatText,777,782,9,10,777-782
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.FormatTextForInput,789,811,9,10,789-811
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.GetSortOptionName,674,699,9,10,674-699
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.GetSortOptionNameMembers,704,750,9,10,704-750
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.GetSortOptionOrderBy,755,770,9,10,755-770
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.JSAlert,571,581,9,10,571-581
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.JSProcessingErrorAlert.get,588,592,13,14,588-592
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.PageRedirect,253,288,9,10,253-288
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.SortOptionArrowImage.get,522,522,13,55,522-522
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.SortOptionArrowUpImage.get,530,530,13,53,530-530
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.Val,869,911,9,10,869-911
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.UI.BasePage.CustomDateFormat,57,61,9,10,57-61
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.UI.BasePage.FormatText,66,74,9,10,66-74
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),addrecipe.EmailRecipeSubmissionNotificationToAdministrator,182,188,5,6,182-188
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),addrecipe.ValidateFileUploadContentType,177,180,5,6,177-180
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_adminlogin.Page_Load,26,29,5,6,26-29
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_articlecommentmanager.ArticleComments_RowDataBound,187,200,5,6,187-200
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_articlemanager.ArticleCat_ItemDataBound,271,288,5,6,271-288
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_articlemanager.UnApprovedArticleList_ItemDataBound,115,137,5,6,115-137
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_categorymanager.BindData,54,58,5,6,54-58
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_categorymanager.dgCat_ItemDataBound,193,215,5,6,193-215
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_commentsmanager.RecipeComments_RowDataBound,192,205,5,6,192-205
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_confirmexceptiondelete.Page_Load,14,17,5,6,14-17
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_deleteuser.SendAnEmailNotificationToTheUser,77,82,5,6,77-82
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_editing.Util.get,31,31,9,38,31-31
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_recipemanager.Next_Buttons,507,514,5,6,507-514
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),articlecategory.ArticleCat_ItemDataBound,99,104,5,6,99-104
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),articlecategory.Util.get,32,32,9,38,32-32
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),articledetail.EmailCommentNotificationToAdministrator,226,233,5,6,226-233
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),articledetail.Util.get,40,40,9,38,40-40
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),editarticle.Util.get,31,31,9,38,31-31
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),editrecipe.Util.get,31,31,9,38,31-31
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),emailarticle.Util.get,28,28,9,38,28-28
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),emailrecipe.Util.get,28,28,9,38,28-28
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),emailuser.Page_Load,14,17,5,6,14-17
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),events.DisplayAppMeetingTime,369,383,5,6,369-383
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),events.NumberOfDays,332,367,5,6,332-367
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),eventweekview.DisplayAppMeetingTime,158,174,5,6,158-174
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),eventweekview.GetWeekEndDate,47,50,5,6,47-50
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),eventweekview.GetWeekNumber,52,55,5,6,52-55
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),eventweekview.GetWeekStartDate,42,45,5,6,42-45
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallarticlebyauthor.ArticleCat_ItemDataBound,102,122,5,6,102-122
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallarticlebyauthor.Util.get,30,30,9,38,30-30
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallarticlecommentbyuser.ArticleCat_ItemDataBound,102,106,5,6,102-106
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallarticlecommentbyuser.Util.get,30,30,9,38,30-30
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallrecipebyauthor.RecipeCat_ItemDataBound,100,121,5,6,100-121
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallrecipebyauthor.Util.get,30,30,9,38,30-30
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallrecipecommentedbyuser.RecipeCat_ItemDataBound,98,102,5,6,98-102
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallrecipecommentedbyuser.Util.get,28,28,9,38,28-28
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),footer.Page_Load,14,17,5,6,14-17
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),getrecipeimageroundedcorner.Page_Load,109,112,5,6,109-112
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),header.Page_Load,14,17,5,6,14-17
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),members.Util.get,32,32,9,38,32-32
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),membershipmanagers.DecryptPass,216,220,5,6,216-220
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),membershipmanagers.GetPreferredLayout,232,255,5,6,232-255
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),membershipmanagers.IsShowInProfile,222,230,5,6,222-230
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),membershipmanagers.MembersRep_ItemDataBound,267,415,5,6,267-415
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),membershipmanagers.Util.get,31,31,9,38,31-31
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),myaccount.Util.get,30,30,9,38,30-30
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),myfriendslist.MyFriendsList_ItemDataBound,81,93,5,6,81-93
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),newestarticle.NewArticlesSidePanel_ItemDataBound,35,40,5,6,35-40
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),newesttoprecipes.RecipeNew_ItemDataBound,138,143,5,6,138-143
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),pmblockedusers.PMBlockedUsers_ItemDataBound,60,81,5,6,60-81
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),pmread.Util.get,28,28,9,38,28-28
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),pmsend.SendPMEmailNotification,209,221,5,6,209-221
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),pmsend.Util.get,29,29,9,38,29-29
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),pmsentread.Util.get,28,28,9,38,28-28
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),pmview.Util.get,28,28,9,38,28-28
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),popUpAjax.Page_Load,14,17,5,6,14-17
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),popupviewuserssavedrecipepublishedbyme.Util.get,29,29,9,38,29-29
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipealphaletter.RecipeCatItemDataBound,170,174,5,6,170-174
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipecategory.RecipeCatItemDataBound,189,193,5,6,189-193
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipecategory.Util.get,44,44,9,38,44-44
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipedetail.EmailCommentNotificationToAdministrator,276,286,5,6,276-286
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipedetail.Util.get,43,43,9,38,43-43
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipesorting.RecipeSortItemDataBound,192,196,5,6,192-196
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipesorting.Util.get,44,44,9,38,44-44
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),registration.EmailAccountActivationLink,241,247,5,6,241-247
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),resendactivationemail.Page_Load,14,17,5,6,14-17
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),rsssidemenu.Page_Load,14,17,5,6,14-17
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),searcharticle.ArticleCat_ItemDataBound,120,124,5,6,120-124
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),searcharticle.Util.get,28,28,9,38,28-28
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),searchrecipe.RecipeCat_ItemDataBound,136,140,5,6,136-140
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),searchuser.Util.get,31,31,9,38,31-31
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),test.BuildCalendar,104,186,5,6,104-186
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),test.GetWeek,59,70,5,6,59-70
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),test.GetWeekEndDate,83,91,5,6,83-91
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),test.GetWeekNumber,188,193,5,6,188-193
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),test.GetWeekStartDate,73,81,5,6,73-81
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),testcal.DisplayAppMeetingTime,167,183,5,6,167-183
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),testcal.GetWeekEndDate,51,54,5,6,51-54
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),testcal.GetWeekNumber,56,59,5,6,56-59
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),testcal.GetWeekStartDate,46,49,5,6,46-49
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),testcal.dt,339,345,5,6,339-345
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),unittest2.Page_Load,14,17,5,6,14-17
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),userprofile.Util.get,32,32,9,38,32-32
+Security,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),viewunapprovedfriends.MyFriendsList_ItemDataBound,73,98,5,6,73-98
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),viewunapprovedfriends.SendEmailApprovedOrDeclinedNotification,135,142,5,6,135-142
+Security,"Efficiency - Memory, Network and Disk Space Management",Provide a private default Constructor for utility Classes (.NET),XDRecipe.Security.CookieLoginHelper,22,22,18,35,22-22

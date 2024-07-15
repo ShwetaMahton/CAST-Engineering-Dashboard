@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Metrics Report</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="application-select" class="application-selection">
+            <h1>Select an Application</h1>
+            <div id="radio-list" class="radio-list"></div>
+            <button id="next-button">Next</button>
+        </div>
+        
+        <div id="quality-metrics" class="quality-metrics" style="display:none;">
+            <div class="header">
+                <h1>Quality Metrics</h1>
+                <button id="back-button">Back</button>
+            </div>
+            <div id="metrics-list" class="list"></div>
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="hidePopup()">&times;</span>
+            <h2 id="popup-title"></h2>
+            <p id="popup-details"></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

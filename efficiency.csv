@@ -1,0 +1,503 @@
+business_name,technical_name,rule_name,object_name,start_line,start_column,end_line,end_column
+Efficiency,Efficiency - SQL and Data Handling Performance,Always cache the returned objects in variables to be reused,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\Ajaxrequest.js,1,1,495,2
+Efficiency,Efficiency - SQL and Data Handling Performance,Always cache the returned objects in variables to be reused,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\alertbox.js,2,1,374,12
+Efficiency,Efficiency - SQL and Data Handling Performance,Always cache the returned objects in variables to be reused,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\validator.js,1,1,291,2
+Efficiency,Efficiency - SQL and Data Handling Performance,Always cache the returned objects in variables to be reused,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\pmsend.aspx,14,2,47,5
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.AdminManagerGetRecipe,1,1,227,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.GetArticleCategoryList,1,1,27,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.GetArticleCategoryListing,1,1,28,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.GetArticleSearchResult,1,1,84,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.GetCategoryArticle,1,1,77,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.GetHomePageCategoryMainCourseRecipe,1,1,30,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.GetHomepageEthnicRegionalCategory,1,1,30,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.GetRecipeCategory,1,1,74,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.GetRecipeCategoryListSideMenu,1,1,28,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.GetRecipeFirstAlphaLetterName,1,1,75,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.GetSearchResult,1,1,71,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.GetSortingRecipe,1,1,73,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spDeleteExceptionLog,2,1,15,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spDeleteMultipleRecipeComment,2,1,19,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spDeleteUserRecipeInCookBook,2,1,17,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spInsertAFriendToFriendsList,2,1,34,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spInsertPMBlockedUser,2,1,25,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spSelectAllArticleByUser,2,1,83,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spSelectDisplayAllMembers,2,1,71,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spSelectDisplayAllMembersAdmin,2,1,145,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spSelectGetAllRecipeByUser,2,1,67,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spSelectGetAllRecipeCommentByUser,2,1,85,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spSelectGetUserArticleCommentByUser,2,1,102,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spSelectLast25UsersWhoCommentedARecipe,2,1,31,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spSelectPrivateMessages,2,1,153,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spSelectRecipeCategory,1,1,27,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spSelectSearchUser,2,1,66,1
+Efficiency,Efficiency - SQL and Data Handling Performance,"Avoid ""SELECT *"" queries",XDPortal.dbo.spSelectUsersCookBookMain,2,1,77,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with High Depth of Nested Subqueries,XDPortal.dbo.spSelectEventWeekViewBeginAndEndDate,1,1,64,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.AdminDeleteRecipeCategory,1,1,26,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.AdminGetRecipeCategoryManager,1,1,25,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.GetArticleCategoryList,1,1,27,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.GetArticleCategoryListing,1,1,28,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.GetHomePageCategoryMainCourseRecipe,1,1,30,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.GetHomepageEthnicRegionalCategory,1,1,30,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.GetLastViewedRecipe,1,1,47,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.GetRecipeCategoryListSideMenu,1,1,28,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.GetRecipeOfTheDay,1,1,56,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.spDeleteExceptionLog,2,1,15,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.spDeleteMultipleRecipeComment,2,1,19,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.spSelectEventWeekViewBeginAndEndDate,1,1,64,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.spSelectLast10UpdatedArticle,2,1,31,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.spSelectLast10UpdatedRecipe,2,1,30,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.spSelectLast25UsersWhoAddedAFriend,2,1,43,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.spSelectLast25UsersWhoCommentedARecipe,2,1,31,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.spSelectPrivateMessages,2,1,153,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.spSelectRecipeCategory,1,1,27,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.spSelectSearchUser,2,1,66,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.spSelectUsersWhoSavedThisRecipeInCookBook,2,1,33,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with SQL statement including subqueries,XDPortal.dbo.spValidateUsernameAndEmailOnRegistration,1,1,31,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.CategoryPage_Article,1,1,54,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetArticleDetails,1,1,59,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetArticleSearchResult,1,1,84,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetCategoryArticle,1,1,77,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetRecipeCategory,1,1,74,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetRecipeFirstAlphaLetterName,1,1,75,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetRecipeOfTheDay,1,1,56,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetRelatedRecipe,1,1,35,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetSearchResult,1,1,71,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.GetSortingRecipe,1,1,73,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spGetRecipeDetail,1,1,65,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectAllArticleByUser,2,1,83,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectAllPublicEvents,2,1,44,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectDisplayAllMembers,2,1,71,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectDisplayAllMembersAdmin,2,1,145,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectEventWeekView,2,1,43,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectFriendsList,1,1,38,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectFriendsListMainPage,2,1,42,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectGetAllRecipeByUser,2,1,67,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectGetAllRecipeCommentByUser,2,1,85,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectGetPublicEventDetails,2,1,33,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectGetUserArticleCommentByUser,2,1,102,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectLast5RecipeByUser,2,1,31,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectNewFriendsWaitingForApproval,2,1,35,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectPrivateMessages,2,1,153,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectUser,2,1,68,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectUserPrivateMessage,2,1,32,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectUsersCookBook,2,1,42,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectUsersCookBookMain,2,1,77,1
+Efficiency,Complexity - SQL Queries,Avoid Artifacts with a Complex SELECT Clause (SQL),XDPortal.dbo.spSelectUsersrecipeInCookBook,2,1,40,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Artifacts with queries on too many Tables and/or Views,XDPortal.dbo.usersview,1,1,86,1
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),XDRecipe.BL.PagerLinks.DisplayNumericPagerLink,175,9,402,10
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),XDRecipe.BL.PagerLinks.DisplayNumericPagerLinkPrivateMessage,694,9,836,10
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),XDRecipe.Common.AlphabetLink.BuildLink,17,9,33,10
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),XDRecipe.Common.AlphabetLink.BuildLinkSearchMembers,35,9,51,10
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),XDRecipe.Common.Utilities.Utility.GetSeqCounter,475,9,495,10
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),XDRecipe.Common.Utilities.Utility.Val,813,9,862,10
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),admin_commentsmanager.DeleteAllSelectedItems_Click,153,5,182,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),eventweekview.BuildTable.get,178,9,194,10
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),eventweekview.GetEventDataReader,197,5,229,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),eventweekview.GetEventDataTable,245,5,300,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),eventweekview.PopulateDDLNumWeek,147,5,156,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),exceptionlogmanager.Delete_Exception,26,5,55,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),imgsecuritycode.Page_Load,18,5,61,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),newrecipexml.Page_Load,25,5,68,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),test.BuildCalendar,104,5,186,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),test.Page_Load,195,5,727,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),test.PrintDay,93,5,101,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),testcal.BuildCalendar.get,188,9,272,10
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),testcal.BuildTable.get,277,9,301,10
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),testcal.GetEventDataReader,304,5,336,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),testcal.GetEventDataTable,347,5,402,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),testcal.PopulateDDLNumWeek,156,5,165,6
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid String concatenation in loops (.NET),toprecipexml.Page_Load,25,5,68,6
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Tables without a clustered Index (SQL),XDPortal.dbo.Configuration,1,1,9,2
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Tables without a clustered Index (SQL),XDPortal.dbo.ConfigureLastViewedHours,1,1,3,2
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid Tables without a clustered Index (SQL),XDPortal.dbo.WhosOnline,1,1,9,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\addarticle.aspx,1,1,183,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\articlemanager.aspx,1,1,186,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\commentsmanager.aspx,1,1,171,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\configuration.aspx,1,1,232,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\deleteduserlogview.aspx,1,1,89,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\deleteuser.aspx,1,1,89,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\membershipmanagers.aspx,1,1,194,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\popupviewusercookbook.aspx,1,1,36,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\popupviewuserfriendslist.aspx,1,1,37,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\recipemanager.aspx,1,1,258,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\suspenduserwithnote.aspx,1,1,112,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\editarticle.aspx,1,1,177,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\pmsend.aspx,1,1,186,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid blocking page loading with synchronous Javascript import,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\popupuserprofile.aspx,1,1,162,1
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid calling a function in a termination loop (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\popupcalendarpicker.js.hideElement,41,1,80,2
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid calling a function in a termination loop (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\popupcalendarpicker.js.showElement,82,1,101,2
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid calling a function in a termination loop (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\table\editor_plugin_src.js._doExecCommand,212,20,1131,4
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid calling a function in a termination loop (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\table\editor_plugin_src.js._doExecCommand.copyRow,432,4,469,5
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid calling a function in a termination loop (Javascript),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\table\editor_plugin_src.js._doExecCommand.trimRow,333,4,362,5
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\articlecommentsmanager.aspx.SelectAll,11,1,30,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\commentsmanager.aspx.SelectAll,11,1,30,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\exceptionlogmanager.aspx.$id,11,1,14,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\exceptionlogmanager.aspx.checkAll,16,1,24,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\exceptionlogmanager.aspx.unCheckAll,25,1,33,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\popupgetuserswhohasnotactivatedaccount.aspx.$id,11,1,14,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\popupgetuserswhohasnotactivatedaccount.aspx.checkAll,16,1,24,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\admin\popupgetuserswhohasnotactivatedaccount.aspx.unCheckAll,25,1,33,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\events.aspx.AddEventCalendar,14,1,17,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\fullscreen\fullscreen.htm.closeFullscreen,62,3,65,4
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\fullscreen\fullscreen.htm.doParentSubmit,67,3,76,4
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\fullscreen\fullscreen.htm.moveContent,58,3,60,4
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\fullscreen\fullscreen.htm.patchCallback,8,3,11,4
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\fullscreen\fullscreen.htm.render,78,3,94,4
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\fullscreen\fullscreen.htm.save_onsavecallback,48,34,52,4
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\fullscreen\fullscreen.htm.unloadHandler,54,3,56,4
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\paste\blank.htm.init,7,1,15,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\unittest2.aspx.createRequestObject,12,2,29,3
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\unittest2.aspx.handleResponseText,47,1,58,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid direct definition of JavaScript Functions in a Web page (Javascript/HTML5),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\unittest2.aspx.sendRequestTextPost,31,1,45,4
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid explicit comparison with NULL,XDPortal.dbo.spAddRecipe,1,1,64,1
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid method invocation in a loop termination expression,XDRecipe.Common.Caching.PurgeCacheItems,54,9,73,10
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid method invocation in a loop termination expression,XDRecipe.Common.DropdownlistHelper.FillUpDropDown,19,9,51,10
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid method invocation in a loop termination expression,test.PrintDay,93,5,101,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management","Avoid missing release of SQL connection after an effective lifetime (C#, VB.NET)",XDRecipe.DAL.DataAccess.Execute,279,9,314,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management","Avoid missing release of SQL connection after an effective lifetime (C#, VB.NET)",XDRecipe.DAL.DataAccess.GetFromDataTable,41,9,81,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management","Avoid missing release of SQL connection after an effective lifetime (C#, VB.NET)",XDRecipe.DAL.DataAccess.GetFromReader,127,9,161,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management","Avoid missing release of SQL connection after an effective lifetime (C#, VB.NET)",XDRecipe.DAL.DataAccess.GetInt32,206,9,246,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management","Avoid missing release of SQL connection after an effective lifetime (C#, VB.NET)",XDRecipe.DAL.DataAccess.GetIntScalarVal,248,9,277,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management","Avoid missing release of SQL connection after an effective lifetime (C#, VB.NET)",XDRecipe.DAL.DataAccess.GetString,163,9,204,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid missing release of stream connection after an effective lifetime,XDRecipe.Security.Encryption.Decrypt,94,9,162,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid missing release of stream connection after an effective lifetime,XDRecipe.Security.Encryption.Encrypt,28,9,92,10
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-SARGable queries,XDPortal.dbo.GetLastViewedRecipe,1,1,47,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-SARGable queries,XDPortal.dbo.GetRecipeOfTheDay,1,1,56,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-SARGable queries,XDPortal.dbo.spSelectEventWeekViewBeginAndEndDate,1,1,64,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-SARGable queries,XDPortal.dbo.spSelectPrivateMessageStatistic,2,1,20,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-SARGable queries,XDPortal.dbo.spSelectSiteStatistics,2,1,61,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.AdminGetRecipeComments,1,1,39,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.ArticleCountAll,1,1,17,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetAlphaLetterCount,1,1,24,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetCountTotalRecipes,1,1,18,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetHomePageCategoryMainCourseRecipe,1,1,30,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetHomepageEthnicRegionalCategory,1,1,30,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetLastViewedRecipe,1,1,47,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetRecipeFirstAlphaLetterName,1,1,75,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetSearchResultArticleCount,1,1,44,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetSearchResultCount,1,1,43,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetSortingRecipe,1,1,73,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetUnApprovedRecipeCount,1,1,17,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetXMLNewestRecipe,1,1,26,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.GetXMLToprecipe,1,1,26,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spActivateAccount,2,1,22,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spCheckEmailIfExistsAjax,2,1,19,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spCheckIfAccountIsActivated,2,1,19,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spCheckIfActivationCodeIsvalid,2,1,19,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spCheckUsernameAvailabilityAjax,2,1,20,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spDeleteAllPMInTrash,2,1,15,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spDeleteUser,2,1,36,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spGetActivationUserName,2,1,19,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spGetCountofUnApprovedArticle,2,1,17,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spGetUserID,2,1,20,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spInsertPrivateMessage,2,1,31,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectAdminUserLogin,2,1,16,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectAllArticleByUser,2,1,83,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectAllPublicEvents,2,1,44,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectArticleCommentAdmin,2,1,35,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectCheckUserActivation,2,1,20,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectCommentArticle,2,1,25,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectCommentRecipe,1,1,29,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectCountPMinTrashByUserID,2,1,15,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectCountSentPM,2,1,19,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectEventWeekView,2,1,43,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectGetAllRecipeByUser,2,1,67,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectGetAllRecipeCommentByUser,2,1,85,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectGetUserArticleCommentByUser,2,1,102,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectGetUserIDByUsername,2,1,19,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectIsUserBlockedFromSendingPM,2,1,24,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectLast25UsersWhoCommentedARecipe,2,1,31,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectPastPublicEvents,2,1,76,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectPrivateMessageStatistic,2,1,20,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectPrivateMessages,2,1,153,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectRecoverLostPassword,2,1,21,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectSearchUser,2,1,66,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectSiteStatistics,2,1,61,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectTop50UsersWhoHasNotActivatedAnAccount,2,1,21,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectUpComingPublicEvents,2,1,76,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectUser,2,1,68,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectUserNewPrivateMessage,2,1,19,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectUserPrivateMessage,2,1,32,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spSelectUserStatus,2,1,18,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spValidateUsernameAndEmailOnRegistration,1,1,31,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.spVerifyUserLoginCredential,2,1,16,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid non-indexed SQL queries,XDPortal.dbo.usersview,1,1,86,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid tables without primary key / unique key constraint / unique index,XDPortal.dbo.Configuration,1,1,9,2
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid tables without primary key / unique key constraint / unique index,XDPortal.dbo.ConfigureLastViewedHours,1,1,3,2
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid tables without primary key / unique key constraint / unique index,XDPortal.dbo.WhosOnline,1,1,9,2
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using DISTINCT in SQL SELECT statements,XDPortal.dbo.spSelectEventWeekViewBeginAndEndDate,1,1,64,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using DISTINCT in SQL SELECT statements,XDPortal.dbo.spSelectUsersWhoSavedThisRecipeInCookBook,2,1,33,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid using Javascript Document.all collection,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\popupcalendarpicker.js.init,152,1,181,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid using Javascript Document.all collection,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\rcipejs.js.bookmark,34,1,48,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid using Javascript Document.all collection,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_Browser,332,1,374,2
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Avoid using Javascript Document.all collection,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_GetElt,219,1,224,2
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using SQL queries inside a loop,XDPortal.dbo.fnConvertCSVToINT,1,1,47,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using css() of many elements,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\alertbox.js,2,1,374,12
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\dragtable.js.forEach,413,30,419,2
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\rcipejs.js.doSubmit,50,1,86,2
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_ExtCmdEnum,1272,1,1287,2
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_MkCmdEnum,324,1,331,2
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\wz_tooltip.js.tt_ReadCmds,557,1,577,2
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\compat2x\editor_plugin_src.js.openWindow,379,17,393,5
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\media\js\embed.js.writeEmbed,51,1,73,2
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\media\js\media.js.generatePreview,521,1,628,2
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\plugins\preview\jscripts\embed.js.writeEmbed,51,1,73,2
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\themes\advanced\js\color_picker.js.generateNamedColors,173,1,186,2
+Efficiency,Efficiency - Expensive Calls in Loops,Avoid using for-in loop,C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\tinymce_editor\utils\validate.js.init,87,9,92,3
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using forEach(),C:\cast-AIPdata\deploy\RecipePortal\main_sources\DOTNET\js\dragtable.js.forEach,422,18,426,2
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectGetAllRecipeCommentByUser,2,1,85,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectGetUserArticleCommentByUser,2,1,102,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast10UpdatedArticle,2,1,31,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast10UpdatedRecipe,2,1,30,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast20UserWhoSubmittedRecipe,2,1,28,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast20UsersWhoSubmittedArticle,2,1,28,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast25UsersWhoAddedAFriend,2,1,43,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast25UsersWhoAddedRecipeInCookBook,2,1,29,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast25UsersWhoCommentedARecipe,2,1,31,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectLast5UsersWhoSavedMyRecipeInCookBook,2,1,28,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectTop25UsersWhoCommentARecipe,2,1,17,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.spSelectTop25UsersWhoCommentAnArticle,2,1,17,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Avoid using the GROUP BY clause,XDPortal.dbo.usersview,1,1,86,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",DataReader must be called using CommandBehavior.CloseConnection enumeration,XDRecipe.DAL.DataAccess.GetInt32,206,9,246,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",DataReader must be called using CommandBehavior.CloseConnection enumeration,XDRecipe.DAL.DataAccess.GetString,163,9,204,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),MyCookBook.SavedRecipeInCookBook_ItemDataBound,98,5,110,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),MyCookBook.Util.get,30,9,30,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),SiteTemplate.Page_Load,20,5,22,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),SiteTemplate2.Page_Load,19,5,22,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),Upcomingevents.CustomDateFormat,16,5,23,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AddArticle,2347,8,2376,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AddComment,2873,8,2895,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AddRecipe,2843,8,2871,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminAddNewArticleCategory,2806,8,2816,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminAddNewRecipeCategory,2762,8,2775,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminApproveRecipe,2615,8,2625,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminDeleteArticle,2429,8,2439,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminDeleteArticleCategory,2794,8,2804,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminDeleteRecipeCategory,2750,8,2760,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminDeleteRecipeComments,2702,8,2715,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminGetArticleComments,209,7,219,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminGetRecipeCategoryManager.get,227,11,227,84
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminGetRecipeComments,267,7,277,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminRecipeManager,2558,8,2586,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminRecipeManagerDelete,2603,8,2613,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminRecipeManagerGetTotalComments.get,2219,12,2219,79
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminRecipeManagerGetWaitingforApprovalCount.get,2228,12,2228,82
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminRecipeManagerWithCustomPaging,2516,8,2556,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminUpdateEmailAndSMTPAddress,2588,8,2601,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminUpdateLastViewedHours,2627,8,2637,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.AdminUpdateShowHideComment,2639,8,2649,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.ArticleCountAll.get,2192,12,2192,73
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.CategoryCount,2164,7,2175,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.DeleteArticleComment,2096,7,2109,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.DeleteMultipleArticleComment,2111,7,2124,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.EventWeekViewBeginAndEndDate,1612,7,1625,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.FinalizeAddArticle,2408,8,2418,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetAllArticleByAuthor,2467,8,2488,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetAllArticleCommentedByUser,2490,8,2511,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetAllPublicEventsCalendar,1579,7,1595,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetAllRecipeCommentedByUser,2019,7,2037,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetAllRecipeSubmittedByUser,1999,7,2017,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticleCategory,2306,8,2318,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticleCategoryList.get,2240,12,2240,78
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticleCategoryName,2320,8,2330,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticleComments,2126,7,2135,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticleDetail,137,8,150,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticleSearchResult,2441,8,2465,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetArticlesInCategory,2255,8,2276,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetCatName,230,7,241,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetCategoryHomePage.get,53,11,53,77
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetCommentsRecipeDetail,152,8,162,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetHomepageEthnicRegionalCategory.get,80,11,80,88
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetHomepageMainCourseCategory.get,71,13,71,92
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetHomepageRecipeoftheDay.get,89,11,89,72
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetHomepageTotalCategoryCount.get,2201,12,2201,86
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetHomepageTotalRecipeCount.get,2210,12,2210,78
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast10UpdatedArticle.get,444,13,444,85
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast10UpdatedRecipe.get,453,13,453,84
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast20UserWhoSubmittedRecipe.get,370,13,370,93
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast20UsersWhoSubmittedArticle.get,379,13,379,95
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast25UsersWhoAddedAFriend.get,397,13,397,91
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast25UsersWhoAddedRecipeInCookBook.get,406,13,406,100
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast25UsersWhoCommentedARecipe.get,415,13,415,95
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast50ExceptionErrorLog.get,388,13,388,88
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast5ArticleByUser,467,9,476,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast5RecipeByUser,456,9,465,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLast5UsersWhoSavedMyRecipeInCookBook,695,7,705,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLastArticleID.get,2426,12,2426,72
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetLastViewedRecipe.get,98,13,98,76
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetMostpopularRecipesSideMenu,2039,7,2052,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetNewFriendsWaitingForApproval,1790,7,1799,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetNewestArticleSidePanel,2243,8,2253,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetNewestRecipesSideMenu,176,7,189,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetPastPublicEvents,1567,7,1577,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetPrivateMessageStatistic.get,1335,11,1335,86
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetPublicEventDetails,1627,7,1636,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRSSMostPopularRecipe.get,197,11,197,70
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRSSNewestRecipe.get,206,11,206,73
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRandomRecipeSideMenu,110,8,120,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRecipeAlphaLetterWithPaging,1928,7,1952,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRecipeCategoryDropdownlist.get,62,11,62,77
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRecipeCategoryList_SideMenu.get,107,12,107,85
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRecipeCategoryWithCustomPaging,1902,7,1926,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRecipeDetail,122,8,135,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRecipeImageFileNameForUpdate,243,7,253,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRelatedArticle,2292,8,2304,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetRelatedRecipe,164,8,174,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetSearchResult,1975,7,1996,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetSiteConfiguration.get,511,13,511,87
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetSortRecipePage,1954,7,1973,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetTop10OtherArticlesByThisAuthor,2278,8,2290,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetTop25UsersWhoCommentARecipe.get,493,13,493,92
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetTop25UsersWhoCommentAnArticle.get,502,13,502,94
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetTop50UsersWhoHasNotActivatedAnAccount.get,424,13,424,102
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUnApprovedArticle.get,308,13,308,82
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUpComingMonthPublicEvents,1555,7,1565,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUserPhotoByUserID,255,7,265,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsers,1124,7,1134,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersCookBook,1834,7,1844,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersCookBookMain,1846,7,1868,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersFeaturesConfiguration,683,7,693,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersFriendsList,1701,7,1714,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersFriendsListMain,1689,7,1699,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersPrivateMessages,1187,7,1212,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersReadPrivateMessage,1214,7,1227,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersReadSentPrivateMessage,1229,7,1242,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersRecipeInCookBook,1819,7,1832,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersSuspenionNote,767,7,777,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersWhoAddMeInFriendsList,1716,7,1725,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetUsersWhoSavedThisRecipeInCookBook,707,7,717,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.GetViewUsersRecipeSavedPublishedByMe,1884,7,1897,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.InsertArticleComment,2057,7,2079,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.MarkPMasOldMsgViaAjax,1409,7,1422,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.PublicEventWeekView,1597,7,1610,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.RecoverLostPassword,1030,7,1040,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.SearchUser,779,7,798,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.ShowAllMembers,800,7,819,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.ShowAllMembersAdmin,821,7,846,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.ShowAllPMBlockedUsersByUserID,1452,7,1462,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.SiteStatisticsCounter.get,299,13,299,79
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.UpdateArticle,2378,8,2406,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.UpdateArticleCategory,2779,8,2792,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.UpdateArticleComment,2081,7,2094,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.UpdateRecipe,2651,8,2683,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.UpdateRecipeCategory,2735,8,2748,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.UpdateRecipeComments,2687,8,2700,9
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.ValidateUsernameAndEmail,1042,7,1055,8
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.Blogic.ViewDeletedUsersLog.get,484,13,484,83
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.EmailTemplate.GetAdminFromEmail.get,45,13,45,78
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.BL.EmailTemplate.GetAdminToEmail.get,40,13,40,76
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.EventCalendar.EventCalendar.GetDayNameAbbrev,86,9,119,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.EventCalendar.EventCalendar.GetMonthNameOrAbbrev,121,9,129,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.EventCalendar.EventCalendar.SetupCalendarItem,229,9,238,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.Convert<T>,77,9,90,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),"XDRecipe.Common.ExtendedCollection<T>.ConvertAll<T, TOutput>",104,9,113,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.ConvertToNonNullable<T>,115,9,124,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.Filter<T>,158,9,176,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.GetMaxDouble,389,9,401,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.GetMaxInt,333,9,345,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.GetMinDouble,417,9,429,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.GetMinInt,361,9,373,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.GetSumDouble,477,9,491,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.GetSumInt,445,9,459,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.ExtendedCollection<T>.RemoveAll<T>,560,9,571,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.FormatText,774,9,782,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.FormatTextForInput,784,9,811,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.GetSortOptionName,671,9,699,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.GetSortOptionNameMembers,701,9,750,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.GetSortOptionOrderBy,752,9,770,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.JSAlert,566,9,581,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.JSProcessingErrorAlert.get,588,13,592,14
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.PageRedirect,250,9,288,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.SortOptionArrowImage.get,522,13,522,55
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.SortOptionArrowUpImage.get,530,13,530,53
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.Common.Utilities.Utility.Val,864,9,911,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.UI.BasePage.CustomDateFormat,54,9,61,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),XDRecipe.UI.BasePage.FormatText,63,9,74,10
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),addrecipe.EmailRecipeSubmissionNotificationToAdministrator,182,5,188,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),addrecipe.ValidateFileUploadContentType,177,5,180,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_adminlogin.Page_Load,26,5,29,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_articlecommentmanager.ArticleComments_RowDataBound,187,5,200,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_articlemanager.ArticleCat_ItemDataBound,271,5,288,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_articlemanager.UnApprovedArticleList_ItemDataBound,115,5,137,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_categorymanager.BindData,53,5,58,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_categorymanager.dgCat_ItemDataBound,193,5,215,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_commentsmanager.RecipeComments_RowDataBound,192,5,205,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_confirmexceptiondelete.Page_Load,14,5,17,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_deleteuser.SendAnEmailNotificationToTheUser,77,5,82,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_editing.Util.get,31,9,31,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),admin_recipemanager.Next_Buttons,506,5,514,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),articlecategory.ArticleCat_ItemDataBound,99,5,104,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),articlecategory.Util.get,32,9,32,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),articledetail.EmailCommentNotificationToAdministrator,226,5,233,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),articledetail.Util.get,40,9,40,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),editarticle.Util.get,31,9,31,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),editrecipe.Util.get,31,9,31,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),emailarticle.Util.get,28,9,28,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),emailrecipe.Util.get,28,9,28,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),emailuser.Page_Load,14,5,17,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),events.DisplayAppMeetingTime,369,5,383,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),events.NumberOfDays,332,5,367,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),eventweekview.DisplayAppMeetingTime,158,5,174,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),eventweekview.GetWeekEndDate,47,5,50,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),eventweekview.GetWeekNumber,52,5,55,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),eventweekview.GetWeekStartDate,42,5,45,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallarticlebyauthor.ArticleCat_ItemDataBound,102,5,122,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallarticlebyauthor.Util.get,30,9,30,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallarticlecommentbyuser.ArticleCat_ItemDataBound,102,5,106,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallarticlecommentbyuser.Util.get,30,9,30,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallrecipebyauthor.RecipeCat_ItemDataBound,100,5,121,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallrecipebyauthor.Util.get,30,9,30,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallrecipecommentedbyuser.RecipeCat_ItemDataBound,98,5,102,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),findallrecipecommentedbyuser.Util.get,28,9,28,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),footer.Page_Load,14,5,17,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),getrecipeimageroundedcorner.Page_Load,109,5,112,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),header.Page_Load,14,5,17,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),members.Util.get,32,9,32,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),membershipmanagers.DecryptPass,216,5,220,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),membershipmanagers.GetPreferredLayout,232,5,255,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),membershipmanagers.IsShowInProfile,222,5,230,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),membershipmanagers.MembersRep_ItemDataBound,267,5,415,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),membershipmanagers.Util.get,31,9,31,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),myaccount.Util.get,30,9,30,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),myfriendslist.MyFriendsList_ItemDataBound,81,5,93,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),newestarticle.NewArticlesSidePanel_ItemDataBound,35,5,40,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),newesttoprecipes.RecipeNew_ItemDataBound,138,5,143,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),pmblockedusers.PMBlockedUsers_ItemDataBound,60,5,81,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),pmread.Util.get,28,9,28,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),pmsend.SendPMEmailNotification,209,5,221,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),pmsend.Util.get,29,9,29,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),pmsentread.Util.get,28,9,28,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),pmview.Util.get,28,9,28,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),popUpAjax.Page_Load,14,5,17,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),popupviewuserssavedrecipepublishedbyme.Util.get,29,9,29,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipealphaletter.RecipeCatItemDataBound,170,5,174,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipecategory.RecipeCatItemDataBound,189,5,193,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipecategory.Util.get,44,9,44,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipedetail.EmailCommentNotificationToAdministrator,276,5,286,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipedetail.Util.get,43,9,43,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipesorting.RecipeSortItemDataBound,192,5,196,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),recipesorting.Util.get,44,9,44,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),registration.EmailAccountActivationLink,241,5,247,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),resendactivationemail.Page_Load,14,5,17,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),rsssidemenu.Page_Load,14,5,17,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),searcharticle.ArticleCat_ItemDataBound,120,5,124,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),searcharticle.Util.get,28,9,28,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),searchrecipe.RecipeCat_ItemDataBound,136,5,140,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),searchuser.Util.get,31,9,31,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),test.BuildCalendar,104,5,186,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),test.GetWeek,59,5,70,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),test.GetWeekEndDate,83,5,91,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),test.GetWeekNumber,188,5,193,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),test.GetWeekStartDate,73,5,81,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),testcal.DisplayAppMeetingTime,167,5,183,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),testcal.GetWeekEndDate,51,5,54,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),testcal.GetWeekNumber,56,5,59,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),testcal.GetWeekStartDate,46,5,49,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),testcal.dt,338,5,345,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),unittest2.Page_Load,14,5,17,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),userprofile.Util.get,32,9,32,38
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),viewunapprovedfriends.MyFriendsList_ItemDataBound,73,5,98,6
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Methods that do not use instance fields\methods should be static (.NET),viewunapprovedfriends.SendEmailApprovedOrDeclinedNotification,135,5,142,6
+Efficiency,Efficiency - SQL and Data Handling Performance,Prefer UNION ALL to UNION,XDPortal.dbo.spUpdateUserPreferredLayout,2,1,31,1
+Efficiency,Efficiency - SQL and Data Handling Performance,Prefer UNION ALL to UNION,XDPortal.dbo.spUpdateUserPreferredPageSize,2,1,35,1
+Efficiency,"Efficiency - Memory, Network and Disk Space Management",Provide a private default Constructor for utility Classes (.NET),XDRecipe.Security.CookieLoginHelper,19,5,186,6
