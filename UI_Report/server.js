@@ -29,6 +29,25 @@ async function fetchData() {
     }
 }
 
+// Function to fetch quality metrics from the API
+async function fetchQualityMetrics(application) {
+    const url = `${API_URL}/${application}/quality-indicators/60017/snapshots/1`;
+    console.log('Fetching Quality Metrics from URL:', url);
+    
+    try {
+        const response = await axios.get(url, {
+            auth: {
+                username: USERNAME,
+                password: PASSWORD
+            }
+        });
+        return response.data;
+    } catch (error) {
+        console.error('Error fetching quality metrics:', error.message);
+        throw error;
+    }
+}
+
 // Proxy endpoint to fetch applications from the API
 app.get('/api/data', async (req, res) => {
     try {
@@ -37,6 +56,18 @@ app.get('/api/data', async (req, res) => {
         console.log("Applications", data)
     } catch (error) {
         res.status(500).send('Error fetching data');
+    }
+});
+
+// Proxy endpoint to fetch quality metrics based on selected application
+app.get('/api/qualityMetrics/TQI', async (req, res) => {
+    const { application } = req.query;
+    try {
+        const data = await fetchQualityMetrics(application);
+        res.json(data);
+        console.log(`Quality Metrics TQI for ${application}`, data)
+    } catch (error) {
+        res.status(500).send('Error fetching quality metrics');
     }
 });
 

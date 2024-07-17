@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Measure</title>
+    <link rel="stylesheet" href="HEALTHMEASURESstyles.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const measure = urlParams.get('measure');
+            const measureDisplay = document.getElementById('measure-display');
+            measureDisplay.textContent = measure ? `You have selected: ${measure}` : 'No measure selected';
+        });
+    </script>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <p id="measure-display"></p>
+</body>
+</html>

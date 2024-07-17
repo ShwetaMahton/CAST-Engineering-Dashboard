@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const qualityMetricsDiv = document.getElementById('quality-metrics');
     const metricsList = document.getElementById('metrics-list');
     const backButton = document.getElementById('back-button');
-    const popup = document.getElementById('popup');
+
+    let chosenApplication = '';
 
     // Fetch applications from the server
     async function fetchApplications() {
@@ -16,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const data = await response.json();
             populateApplications(data);
-            console.log("Applications data" , data )
+            console.log("Applications data", data);
         } catch (error) {
             console.error('Error fetching applications:', error);
         }
@@ -25,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Populate the radio list with applications
     function populateApplications(data) {
         const filteredApplications = data.filter(app => app.schema && app.schema.endsWith('_central'))
-                                         .map(app => ({ name: app.schema.replace('_central', '') }));
+                                         .map(app => ({ name: app.name, displayName: app.schema.replace('_central', '') }));
 
         filteredApplications.forEach(application => {
             const label = document.createElement('label');
@@ -34,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             radio.name = 'application';
             radio.value = application.name;
             label.appendChild(radio);
-            label.appendChild(document.createTextNode(application.name));
+            label.appendChild(document.createTextNode(application.displayName));
             radioList.appendChild(label);
             radioList.appendChild(document.createElement('br')); // Add a line break for each application
         });
@@ -49,8 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // Mock data for quality metrics
-        const qualityMetrics = [
+        // Health Measures list
+        const HealthMeasures = [
             'Total Quality Index',
             'Changeability',
             'Transferability',
@@ -62,11 +63,38 @@ document.addEventListener('DOMContentLoaded', () => {
             'Efficiency'
         ];
 
-        // Display quality metrics
+        chosenApplication = selectedApplication.value; // Store the selected application name
+        console.log('Selected Application:', chosenApplication);
+
+        fetchQualityMetrics(chosenApplication, HealthMeasures);
+    }
+
+    // Fetch quality metrics from the server
+    async function fetchQualityMetrics(chosenApplication, HealthMeasures) {
+        try {
+            const response = await fetch(`/api/qualityMetrics/TQI?application=${chosenApplication}`);
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+
+            const data = await response.json();
+            console.log('Quality Metrics TQI:', data);
+            displayQualityMetrics(HealthMeasures);
+        } catch (error) {
+            console.error('Error fetching quality metrics:', error);
+            displayQualityMetrics(HealthMeasures); // Still display HealthMeasures on error
+        }
+    }
+
+    // Display quality metrics
+    function displayQualityMetrics(HealthMeasures) {
         metricsList.innerHTML = '';
-        qualityMetrics.forEach(metric => {
+        
+        HealthMeasures.forEach(measure => {
             const div = document.createElement('div');
-            div.textContent = metric;
+            div.textContent = measure;
+            div.className = 'metric-item';
+            div.addEventListener('click', () => openStaticPage(measure));
             metricsList.appendChild(div);
         });
 
@@ -75,6 +103,11 @@ document.addEventListener('DOMContentLoaded', () => {
         qualityMetricsDiv.style.display = 'block';
     }
 
+    // Open a static page with a demo message
+    function openStaticPage(measure) {
+        window.location.href = `HealthMeasure.html?measure=${encodeURIComponent(measure)}`;
+    }
+    
     // Go back to the application selection
     function goBack() {
         applicationSelectDiv.style.display = 'block';
